@@ -1,0 +1,62 @@
+name: CDK Deploy
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+    inputs:
+      DEPLOY_ENV:
+        description: 'Deployment Environment(Possible values -> dev, uat)'
+        default: 'dev'
+        required: true
+    branches:
+      - main
+
+jobs:
+  aws_cdk:
+    runs-on: ubuntu-latest
+    env:
+      DEPLOY_ENV: ${{ github.event.inputs.DEPLOY_ENV || 'dev' }}
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 2
+
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Lint with ESLint
+        run: npm run lint
+        working-directory: src/
+
+      - name: Build cron-scheduler
+        run: npm run cron-build
+
+      - name: Install AWS CDK
+        run: npm i -g aws-cdk
+
+      - name: Configure aws credentials
+        uses: aws-actions/configure-aws-credentials@master
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_KEY }}
+          aws-region: 'eu-west-1'
+
+      - name: Synth stack
+        run: |
+          cd infra && \
+          npm i && \
+          DEPLOY_ENV=$DEPLOY_ENV cdk synth
+
+      - name: Docker build and Deploy stack
+        run: |
+          cd infra && \
+          DEPLOY_ENV=$DEPLOY_ENV cdk deploy --all

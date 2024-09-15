@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/public/css/acceptRequest.css" type="text/css" />
+    <title>Whyze</title>
+    <script type="text/javascript"
+        src="http://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=dLY4k_cCONJGTkQwjpUsXUKQZSvbBJQxzp6DaMlJqE3hFjshTFMCHtoEw0y7FP1wApqTIPZ4x4xzh51C-6ZbN6upFJR_PRQ-ua_qivgDnlXOFKpVu5LaZBIefdQ7CbbPar7oAyYhU3_TejvBSlMI8g"
+        charset="UTF-8"></script>
+    <link rel="stylesheet" crossorigin="anonymous"
+        href="http://gc.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cDovL2NoYXQudGVjaGJ1bWJsZXMuY28uaW46MzAwMC9maWxlLXVwbG9hZC82NTQwZTkzMWYwZmU3Zjk2OTU3NGI1NDYvYWNjZXB0LXJlcXVlc3QuaHRtbA" />
+    <script type="text/javascript" src="/public/javascript/acceptRequest.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo">
+            <img id="logo" src="/public/images/Logo.svg" />
+        </div>
+        <div class="main-logo-text">
+            <p class="whyze-title">Whyze Health Platform</p>
+        </div>
+        <div class="body">
+            {{#if isOwner}}
+            {{#if isNewUser}}
+            <p></p>
+            {{else}}
+            <p class="body-text">Dear {{receiver}},</p>
+            <p class="body-text">You received an invitation from {{sender}} requesting your consent to
+                share access to your Whyze Health account.</p>
+            <p class="body-text">You will still have access to your app, however, the individual has the
+                ability to act and make decisions on your behalf. By accepting their invitation, you are
+                agreeing to:</p>
+            <li class="body-text">I understand that my personal data including special category data (health
+                data) contained
+                in my medical record, will be processed by Whyze Health as an electronic patient record and
+                as described in the privacy notice and the associated patient information.</li>
+            <li class="body-text">I acknowledge that the above-described consent to the processing of my
+                personal data can be
+                withdrawn any time (without giving reason) by sending an email to
+                <u>support@whyzehealth.com</u>
+            </li>
+            <li class="body-text">I consent to allow personal information about me, including my medical
+                record stored in the
+                Whyze Health App, to be shared with the following Third Parties, {{sender}}.</li>
+            <p class="body-text">The information shared is solely with this individual, and you can revoke
+                their access at
+                any time.</p>
+            <p class="body-text">Further information about our processing of your personal data is available
+                in our privacy
+                notice</p>
+            {{/if}}
+            {{else}}
+            <p class="body-text">Dear {{receiver}},</p>
+            <p class="body-text">
+                You have been invited by {{sender}} to access his Whyze Patient account.
+            </p>
+            <p class="body-text">
+                All you need is a Whyze Health account to access his profile. If you don't have one,
+                simply
+                download the
+                Whyze Health app and create an account.
+            </p>
+            <p class="body-text">
+                By accepting his invitation, you consent to take on the responsibilities of his
+                guardian
+                and act
+                as
+                his representative.
+            </p>
+            {{/if}}
+        </div>
+        <div class="request-button">
+            <a href="{{link}}">
+                <input id="button" type="button" value="Accept invitation" />
+            </a>
+        </div>
+        <div class="terms-and-conditions">
+            See <a class="terms-and-conditions-link" href="https://www.whyzehealth.com/terms">Terms and Conditions</a>
+        </div>
+        <div class="thanks-text">
+            Thanks,
+        </div>
+        <div class="thanks-text">
+            The Whyze Health Team
+        </div>
+    </div>
+
+</body>
+
+</html>
