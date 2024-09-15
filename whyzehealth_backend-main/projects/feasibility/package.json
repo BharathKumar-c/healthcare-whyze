@@ -1,0 +1,33 @@
+{
+  "name": "feasibility",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.local.js",
+    "dev": "nodemon src/app.local.js",
+    "fix": "npx eslint --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vendia/serverless-express": "^4.10.1",
+    "aws-sdk": "^2.1274.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "jwt-decode": "^3.1.2",
+    "path": "^0.12.7",
+    "pg": "^8.8.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.27.0"
+  },
+  "devDependencies": {
+    "body-parser": "^1.20.1",
+    "dotenv": "^16.0.3",
+    "eslint": "^8.29.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}
