@@ -1,0 +1,1202 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test cases for Sites  should sites Snapshot test 1`] = `
+<div>
+  <div
+    class="ant-row"
+  >
+    <div
+      class="ant-col ant-col-21"
+    >
+      <div
+        class="ant-card ant-card-bordered card-head-sites"
+        id="card_hoc"
+      >
+        <div
+          class="ant-card-head"
+        >
+          <div
+            class="ant-card-head-wrapper"
+          >
+            <div
+              class="ant-card-head-title"
+            >
+              <div
+                class="ant-space ant-space-horizontal ant-space-align-center"
+              >
+                <div
+                  class="ant-space-item"
+                >
+                  <div
+                    class="ant-space ant-space-horizontal ant-space-align-center"
+                  >
+                    <div
+                      class="ant-space-item"
+                      style="margin-right: 20px;"
+                    >
+                      <div />
+                    </div>
+                    <div
+                      class="ant-space-item"
+                    >
+                      <div
+                        style="font-weight: 700; font-size: 24px;"
+                      >
+                        <div
+                          class="sites-title-card"
+                        >
+                          <div
+                            class="sites-title-card-title"
+                          >
+                            Sites
+                          </div>
+                          <div
+                            class="sites-title-card-description"
+                          >
+                            <div
+                              class="sites-title-card-description-sites"
+                            >
+                              <svg>
+                                Sites.svg
+                              </svg>
+                            </div>
+                            <div
+                              class="sites-title-card-description-sites"
+                            >
+                              127 Sites
+                            </div>
+                            <div
+                              class="sites-title-card-description-sites"
+                            >
+                              <svg>
+                                Location.svg
+                              </svg>
+                            </div>
+                            <div
+                              class="sites-title-card-description-sites"
+                            >
+                              2 Countries
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="ant-card-extra"
+            >
+              <div
+                class="filter-box"
+              >
+                <button
+                  class="ant-btn ant-btn-default ant-dropdown-trigger filter-box-button"
+                  type="button"
+                >
+                  <div
+                    class="filter-box-text-icon"
+                  >
+                    <div
+                      class="filter-box-text"
+                    >
+                      Filter
+                    </div>
+                    <div>
+                      <svg>
+                        Filter.svg
+                      </svg>
+                    </div>
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="ant-card-body"
+        >
+          <div
+            class="sites-children-body"
+          >
+            <div
+              class="sites-children"
+            >
+              <div
+                class="ant-col ant-col-md-1"
+              >
+                <svg>
+                  Drag.svg
+                </svg>
+              </div>
+              <div
+                class="ant-space ant-space-horizontal ant-space-align-center condition-container"
+                style="border: 2px solid #d3d6d9; display: flex; flex-direction: column; margin-bottom: 0.5rem; padding: 20px 30px 12px 20px;"
+              >
+                <div
+                  class="ant-space-item"
+                >
+                  <div
+                    class="ant-row sites-children-wrapper"
+                  >
+                    <div
+                      class="ant-col"
+                    >
+                      <div
+                        class="ant-row sites-children-wrapper-university"
+                      >
+                        The Mater Misericordiae University Hospital
+                      </div>
+                      <div>
+                        <div
+                          class="ant-row sites-children-wrapper-linked"
+                        >
+                          <svg>
+                            Link.svg
+                          </svg>
+                          2 linked sites
+                        </div>
+                      </div>
+                      <div
+                        class="ant-row sites-children-wrapper-usersAndLocation"
+                      >
+                        <div
+                          class="ant-col sites-children-wrapper-usersAndLocation-col"
+                        >
+                          <svg>
+                            UserAdd.svg
+                          </svg>
+                          231
+                        </div>
+                        <svg
+                          class="sites-children-wrapper-usersAndLocation-col-icon"
+                        >
+                          Divider.svg
+                        </svg>
+                        <div
+                          class="ant-col sites-children-wrapper-usersAndLocation-col"
+                        >
+                          <svg>
+                            UserDelete.svg
+                          </svg>
+                          17
+                        </div>
+                        <svg
+                          class="sites-children-wrapper-usersAndLocation-col-icon"
+                        >
+                          Divider.svg
+                        </svg>
+                        <div
+                          class="ant-col sites-children-wrapper-usersAndLocation-col"
+                        >
+                          3.0
+                          <svg>
+                            Star.svg
+                          </svg>
+                        </div>
+                        <svg
+                          class="sites-children-wrapper-usersAndLocation-col-icon"
+                        >
+                          Divider.svg
+                        </svg>
+                        <div
+                          class="ant-col sites-children-wrapper-usersAndLocation-col"
+                        >
+                          <svg>
+                            Location2.svg
+                          </svg>
+                          Dublin, Ireland
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="ant-col"
+                    >
+                      <svg
+                        class="sites-children-wrapper-add-icon"
+                      >
+                        AddIconGreenUnShaded.svg
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="sites-children"
+            >
+              <div
+                class="ant-col ant-col-md-1"
+              >
+                <svg>
+                  Drag.svg
+                </svg>
+              </div>
+              <div
+                class="ant-space ant-space-horizontal ant-space-align-center condition-container"
+                style="border: 2px solid #d3d6d9; display: flex; flex-direction: column; margin-bottom: 0.5rem; padding: 20px 30px 12px 20px;"
+              >
+                <div
+                  class="ant-space-item"
+                >
+                  <div
+                    class="ant-row sites-children-wrapper"
+                  >
+                    <div
+                      class="ant-col"
+                    >
+                      <div
+                        class="ant-row sites-children-wrapper-university"
+                      >
+                        Hammersmith Hospital
+                      </div>
+                      <div
+                        class="ant-row sites-children-wrapper-usersAndLocation"
+                      >
+                        <div
+                          class="ant-col sites-children-wrapper-usersAndLocation-col"
+                        >
+                          <svg>
+                            UserAdd.svg
+                          </svg>
+                          183
+                        </div>
+                        <svg
+                          class="sites-children-wrapper-usersAndLocation-col-icon"
+                        >
+                          Divider.svg
+                        </svg>
+                        <div
+                          class="ant-col sites-children-wrapper-usersAndLocation-col"
+                        >
+                          <svg>
+                            UserDelete.svg
+                          </svg>
+                          12
+                        </div>
+                        <svg
+                          class="sites-children-wrapper-usersAndLocation-col-icon"
+                        >
+                          Divider.svg
+                        </svg>
+                        <div
+                          class="ant-col sites-children-wrapper-usersAndLocation-col"
+                        >
+                          4.2
+                          <svg>
+                            Star.svg
+                          </svg>
+                        </div>
+                        <svg
+                          class="sites-children-wrapper-usersAndLocation-col-icon"
+                        >
+                          Divider.svg
+                        </svg>
+                        <div
+                          class="ant-col sites-children-wrapper-usersAndLocation-col"
+                        >
+                          <svg>
+                            Location2.svg
+                          </svg>
+                          London, UK
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="ant-col"
+                    >
+                      <svg
+                        class="sites-children-wrapper-add-icon"
+                      >
+                        AddIconGreenUnShaded.svg
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="sites-children"
+            >
+              <div
+                class="ant-col ant-col-md-1"
+              >
+                <svg>
+                  Drag.svg
+                </svg>
+              </div>
+              <div
+                class="ant-space ant-space-horizontal ant-space-align-center condition-container"
+                style="border: 2px solid #d3d6d9; display: flex; flex-direction: column; margin-bottom: 0.5rem; padding: 20px 30px 12px 20px;"
+              >
+                <div
+                  class="ant-space-item"
+                >
+                  <div
+                    class="ant-row sites-children-wrapper"
+                  >
+                    <div
+                      class="ant-col"
+                    >
+                      <div
+                        class="ant-row sites-children-wrapper-university"
+                      >
+                        University College Hospital at Westmoreland Street
+                      </div>
+                      <div
+                        class="ant-row sites-children-wrapper-usersAndLocation"
+                      >
+                        <div
+                          class="ant-col sites-children-wrapper-usersAndLocation-col"
+                        >
+                          <svg>
+                            UserAdd.svg
+                          </svg>
+                          87
+                        </div>
+                        <svg
+                          class="sites-children-wrapper-usersAndLocation-col-icon"
+                        >
+                          Divider.svg
+                        </svg>
+                        <div
+                          class="ant-col sites-children-wrapper-usersAndLocation-col"
+                        >
+                          <svg>
+                            UserDelete.svg
+                          </svg>
+                          6
+                        </div>
+                        <svg
+                          class="sites-children-wrapper-usersAndLocation-col-icon"
+                        >
+                          Divider.svg
+                        </svg>
+                        <div
+                          class="ant-col sites-children-wrapper-usersAndLocation-col"
+                        >
+                          4.1
+                          <svg>
+                            Star.svg
+                          </svg>
+                        </div>
+                        <svg
+                          class="sites-children-wrapper-usersAndLocation-col-icon"
+                        >
+                          Divider.svg
+                        </svg>
+                        <div
+                          class="ant-col sites-children-wrapper-usersAndLocation-col"
+                        >
+                          <svg>
+                            Location2.svg
+                          </svg>
+                          London, UK
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="ant-col"
+                    >
+                      <svg
+                        class="sites-children-wrapper-add-icon"
+                      >
+                        AddIconGreenUnShaded.svg
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="sites-children"
+            >
+              <div
+                class="ant-col ant-col-md-1"
+              >
+                <svg>
+                  Drag.svg
+                </svg>
+              </div>
+              <div
+                class="ant-space ant-space-horizontal ant-space-align-center condition-container"
+                style="border: 2px solid #d3d6d9; display: flex; flex-direction: column; margin-bottom: 0.5rem; padding: 20px 30px 12px 20px;"
+              >
+                <div
+                  class="ant-space-item"
+                >
+                  <div
+                    class="ant-row sites-children-wrapper"
+                  >
+                    <div
+                      class="ant-col"
+                    >
+                      <div
+                        class="ant-row sites-children-wrapper-university"
+                      >
+                        Cork University Hospital
+                      </div>
+                      <div>
+                        <div
+                          class="ant-row sites-children-wrapper-linked"
+                        >
+                          <svg>
+                            Link.svg
+                          </svg>
+                          1 linked site
+                        </div>
+                      </div>
+                      <div
+                        class="ant-row sites-children-wrapper-usersAndLocation"
+                      >
+                        <div
+                          class="ant-col sites-children-wrapper-usersAndLocation-col"
+                        >
+                          <svg>
+                            UserAdd.svg
+                          </svg>
+                          107
+                        </div>
+                        <svg
+                          class="sites-children-wrapper-usersAndLocation-col-icon"
+                        >
+                          Divider.svg
+                        </svg>
+                        <div
+                          class="ant-col sites-children-wrapper-usersAndLocation-col"
+                        >
+                          <svg>
+                            UserDelete.svg
+                          </svg>
+                          7
+                        </div>
+                        <svg
+                          class="sites-children-wrapper-usersAndLocation-col-icon"
+                        >
+                          Divider.svg
+                        </svg>
+                        <div
+                          class="ant-col sites-children-wrapper-usersAndLocation-col"
+                        >
+                          3.7
+                          <svg>
+                            Star.svg
+                          </svg>
+                        </div>
+                        <svg
+                          class="sites-children-wrapper-usersAndLocation-col-icon"
+                        >
+                          Divider.svg
+                        </svg>
+                        <div
+                          class="ant-col sites-children-wrapper-usersAndLocation-col"
+                        >
+                          <svg>
+                            Location2.svg
+                          </svg>
+                          Cork, Ireland
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="ant-col"
+                    >
+                      <svg
+                        class="sites-children-wrapper-add-icon"
+                      >
+                        AddIconGreenUnShaded.svg
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="sites-children"
+            >
+              <div
+                class="ant-col ant-col-md-1"
+              >
+                <svg>
+                  Drag.svg
+                </svg>
+              </div>
+              <div
+                class="ant-space ant-space-horizontal ant-space-align-center condition-container"
+                style="border: 2px solid #d3d6d9; display: flex; flex-direction: column; margin-bottom: 0.5rem; padding: 20px 30px 12px 20px;"
+              >
+                <div
+                  class="ant-space-item"
+                >
+                  <div
+                    class="ant-row sites-children-wrapper"
+                  >
+                    <div
+                      class="ant-col"
+                    >
+                      <div
+                        class="ant-row sites-children-wrapper-university"
+                      >
+                        Merlin Park University Hospital
+                      </div>
+                      <div
+                        class="ant-row sites-children-wrapper-usersAndLocation"
+                      >
+                        <div
+                          class="ant-col sites-children-wrapper-usersAndLocation-col"
+                        >
+                          <svg>
+                            UserAdd.svg
+                          </svg>
+                          41
+                        </div>
+                        <svg
+                          class="sites-children-wrapper-usersAndLocation-col-icon"
+                        >
+                          Divider.svg
+                        </svg>
+                        <div
+                          class="ant-col sites-children-wrapper-usersAndLocation-col"
+                        >
+                          <svg>
+                            UserDelete.svg
+                          </svg>
+                          2
+                        </div>
+                        <svg
+                          class="sites-children-wrapper-usersAndLocation-col-icon"
+                        >
+                          Divider.svg
+                        </svg>
+                        <div
+                          class="ant-col sites-children-wrapper-usersAndLocation-col"
+                        >
+                          4.5
+                          <svg>
+                            Star.svg
+                          </svg>
+                        </div>
+                        <svg
+                          class="sites-children-wrapper-usersAndLocation-col-icon"
+                        >
+                          Divider.svg
+                        </svg>
+                        <div
+                          class="ant-col sites-children-wrapper-usersAndLocation-col"
+                        >
+                          <svg>
+                            Location2.svg
+                          </svg>
+                          Galway, Ireland
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="ant-col"
+                    >
+                      <svg
+                        class="sites-children-wrapper-add-icon"
+                      >
+                        AddIconGreenUnShaded.svg
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="sites-children"
+            >
+              <div
+                class="ant-col ant-col-md-1"
+              >
+                <svg>
+                  Drag.svg
+                </svg>
+              </div>
+              <div
+                class="ant-space ant-space-horizontal ant-space-align-center condition-container"
+                style="border: 2px solid #d3d6d9; display: flex; flex-direction: column; margin-bottom: 0.5rem; padding: 20px 30px 12px 20px;"
+              >
+                <div
+                  class="ant-space-item"
+                >
+                  <div
+                    class="ant-row sites-children-wrapper"
+                  >
+                    <div
+                      class="ant-col"
+                    >
+                      <div
+                        class="ant-row sites-children-wrapper-university"
+                      >
+                        The Mater Misericordiae University Hospital
+                      </div>
+                      <div>
+                        <div
+                          class="ant-row sites-children-wrapper-linked"
+                        >
+                          <svg>
+                            Link.svg
+                          </svg>
+                          2 linked sites
+                        </div>
+                      </div>
+                      <div
+                        class="ant-row sites-children-wrapper-usersAndLocation"
+                      >
+                        <div
+                          class="ant-col sites-children-wrapper-usersAndLocation-col"
+                        >
+                          <svg>
+                            UserAdd.svg
+                          </svg>
+                          231
+                        </div>
+                        <svg
+                          class="sites-children-wrapper-usersAndLocation-col-icon"
+                        >
+                          Divider.svg
+                        </svg>
+                        <div
+                          class="ant-col sites-children-wrapper-usersAndLocation-col"
+                        >
+                          <svg>
+                            UserDelete.svg
+                          </svg>
+                          17
+                        </div>
+                        <svg
+                          class="sites-children-wrapper-usersAndLocation-col-icon"
+                        >
+                          Divider.svg
+                        </svg>
+                        <div
+                          class="ant-col sites-children-wrapper-usersAndLocation-col"
+                        >
+                          3.0
+                          <svg>
+                            Star.svg
+                          </svg>
+                        </div>
+                        <svg
+                          class="sites-children-wrapper-usersAndLocation-col-icon"
+                        >
+                          Divider.svg
+                        </svg>
+                        <div
+                          class="ant-col sites-children-wrapper-usersAndLocation-col"
+                        >
+                          <svg>
+                            Location2.svg
+                          </svg>
+                          Dublin, Ireland
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="ant-col"
+                    >
+                      <svg
+                        class="sites-children-wrapper-add-icon"
+                      >
+                        AddIconGreenUnShaded.svg
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="sites-children"
+            >
+              <div
+                class="ant-col ant-col-md-1"
+              >
+                <svg>
+                  Drag.svg
+                </svg>
+              </div>
+              <div
+                class="ant-space ant-space-horizontal ant-space-align-center condition-container"
+                style="border: 2px solid #d3d6d9; display: flex; flex-direction: column; margin-bottom: 0.5rem; padding: 20px 30px 12px 20px;"
+              >
+                <div
+                  class="ant-space-item"
+                >
+                  <div
+                    class="ant-row sites-children-wrapper"
+                  >
+                    <div
+                      class="ant-col"
+                    >
+                      <div
+                        class="ant-row sites-children-wrapper-university"
+                      >
+                        Hammersmith Hospital
+                      </div>
+                      <div
+                        class="ant-row sites-children-wrapper-usersAndLocation"
+                      >
+                        <div
+                          class="ant-col sites-children-wrapper-usersAndLocation-col"
+                        >
+                          <svg>
+                            UserAdd.svg
+                          </svg>
+                          183
+                        </div>
+                        <svg
+                          class="sites-children-wrapper-usersAndLocation-col-icon"
+                        >
+                          Divider.svg
+                        </svg>
+                        <div
+                          class="ant-col sites-children-wrapper-usersAndLocation-col"
+                        >
+                          <svg>
+                            UserDelete.svg
+                          </svg>
+                          12
+                        </div>
+                        <svg
+                          class="sites-children-wrapper-usersAndLocation-col-icon"
+                        >
+                          Divider.svg
+                        </svg>
+                        <div
+                          class="ant-col sites-children-wrapper-usersAndLocation-col"
+                        >
+                          4.2
+                          <svg>
+                            Star.svg
+                          </svg>
+                        </div>
+                        <svg
+                          class="sites-children-wrapper-usersAndLocation-col-icon"
+                        >
+                          Divider.svg
+                        </svg>
+                        <div
+                          class="ant-col sites-children-wrapper-usersAndLocation-col"
+                        >
+                          <svg>
+                            Location2.svg
+                          </svg>
+                          London, UK
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="ant-col"
+                    >
+                      <svg
+                        class="sites-children-wrapper-add-icon"
+                      >
+                        AddIconGreenUnShaded.svg
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="sites-children"
+            >
+              <div
+                class="ant-col ant-col-md-1"
+              >
+                <svg>
+                  Drag.svg
+                </svg>
+              </div>
+              <div
+                class="ant-space ant-space-horizontal ant-space-align-center condition-container"
+                style="border: 2px solid #d3d6d9; display: flex; flex-direction: column; margin-bottom: 0.5rem; padding: 20px 30px 12px 20px;"
+              >
+                <div
+                  class="ant-space-item"
+                >
+                  <div
+                    class="ant-row sites-children-wrapper"
+                  >
+                    <div
+                      class="ant-col"
+                    >
+                      <div
+                        class="ant-row sites-children-wrapper-university"
+                      >
+                        University College Hospital at Westmoreland Street
+                      </div>
+                      <div
+                        class="ant-row sites-children-wrapper-usersAndLocation"
+                      >
+                        <div
+                          class="ant-col sites-children-wrapper-usersAndLocation-col"
+                        >
+                          <svg>
+                            UserAdd.svg
+                          </svg>
+                          87
+                        </div>
+                        <svg
+                          class="sites-children-wrapper-usersAndLocation-col-icon"
+                        >
+                          Divider.svg
+                        </svg>
+                        <div
+                          class="ant-col sites-children-wrapper-usersAndLocation-col"
+                        >
+                          <svg>
+                            UserDelete.svg
+                          </svg>
+                          6
+                        </div>
+                        <svg
+                          class="sites-children-wrapper-usersAndLocation-col-icon"
+                        >
+                          Divider.svg
+                        </svg>
+                        <div
+                          class="ant-col sites-children-wrapper-usersAndLocation-col"
+                        >
+                          4.1
+                          <svg>
+                            Star.svg
+                          </svg>
+                        </div>
+                        <svg
+                          class="sites-children-wrapper-usersAndLocation-col-icon"
+                        >
+                          Divider.svg
+                        </svg>
+                        <div
+                          class="ant-col sites-children-wrapper-usersAndLocation-col"
+                        >
+                          <svg>
+                            Location2.svg
+                          </svg>
+                          London, UK
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="ant-col"
+                    >
+                      <svg
+                        class="sites-children-wrapper-add-icon"
+                      >
+                        AddIconGreenUnShaded.svg
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="sites-children"
+            >
+              <div
+                class="ant-col ant-col-md-1"
+              >
+                <svg>
+                  Drag.svg
+                </svg>
+              </div>
+              <div
+                class="ant-space ant-space-horizontal ant-space-align-center condition-container"
+                style="border: 2px solid #d3d6d9; display: flex; flex-direction: column; margin-bottom: 0.5rem; padding: 20px 30px 12px 20px;"
+              >
+                <div
+                  class="ant-space-item"
+                >
+                  <div
+                    class="ant-row sites-children-wrapper"
+                  >
+                    <div
+                      class="ant-col"
+                    >
+                      <div
+                        class="ant-row sites-children-wrapper-university"
+                      >
+                        Cork University Hospital
+                      </div>
+                      <div>
+                        <div
+                          class="ant-row sites-children-wrapper-linked"
+                        >
+                          <svg>
+                            Link.svg
+                          </svg>
+                          1 linked site
+                        </div>
+                      </div>
+                      <div
+                        class="ant-row sites-children-wrapper-usersAndLocation"
+                      >
+                        <div
+                          class="ant-col sites-children-wrapper-usersAndLocation-col"
+                        >
+                          <svg>
+                            UserAdd.svg
+                          </svg>
+                          107
+                        </div>
+                        <svg
+                          class="sites-children-wrapper-usersAndLocation-col-icon"
+                        >
+                          Divider.svg
+                        </svg>
+                        <div
+                          class="ant-col sites-children-wrapper-usersAndLocation-col"
+                        >
+                          <svg>
+                            UserDelete.svg
+                          </svg>
+                          7
+                        </div>
+                        <svg
+                          class="sites-children-wrapper-usersAndLocation-col-icon"
+                        >
+                          Divider.svg
+                        </svg>
+                        <div
+                          class="ant-col sites-children-wrapper-usersAndLocation-col"
+                        >
+                          3.7
+                          <svg>
+                            Star.svg
+                          </svg>
+                        </div>
+                        <svg
+                          class="sites-children-wrapper-usersAndLocation-col-icon"
+                        >
+                          Divider.svg
+                        </svg>
+                        <div
+                          class="ant-col sites-children-wrapper-usersAndLocation-col"
+                        >
+                          <svg>
+                            Location2.svg
+                          </svg>
+                          Cork, Ireland
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="ant-col"
+                    >
+                      <svg
+                        class="sites-children-wrapper-add-icon"
+                      >
+                        AddIconGreenUnShaded.svg
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="sites-children"
+            >
+              <div
+                class="ant-col ant-col-md-1"
+              >
+                <svg>
+                  Drag.svg
+                </svg>
+              </div>
+              <div
+                class="ant-space ant-space-horizontal ant-space-align-center condition-container"
+                style="border: 2px solid #d3d6d9; display: flex; flex-direction: column; margin-bottom: 0.5rem; padding: 20px 30px 12px 20px;"
+              >
+                <div
+                  class="ant-space-item"
+                >
+                  <div
+                    class="ant-row sites-children-wrapper"
+                  >
+                    <div
+                      class="ant-col"
+                    >
+                      <div
+                        class="ant-row sites-children-wrapper-university"
+                      >
+                        Merlin Park University Hospital
+                      </div>
+                      <div
+                        class="ant-row sites-children-wrapper-usersAndLocation"
+                      >
+                        <div
+                          class="ant-col sites-children-wrapper-usersAndLocation-col"
+                        >
+                          <svg>
+                            UserAdd.svg
+                          </svg>
+                          41
+                        </div>
+                        <svg
+                          class="sites-children-wrapper-usersAndLocation-col-icon"
+                        >
+                          Divider.svg
+                        </svg>
+                        <div
+                          class="ant-col sites-children-wrapper-usersAndLocation-col"
+                        >
+                          <svg>
+                            UserDelete.svg
+                          </svg>
+                          2
+                        </div>
+                        <svg
+                          class="sites-children-wrapper-usersAndLocation-col-icon"
+                        >
+                          Divider.svg
+                        </svg>
+                        <div
+                          class="ant-col sites-children-wrapper-usersAndLocation-col"
+                        >
+                          4.5
+                          <svg>
+                            Star.svg
+                          </svg>
+                        </div>
+                        <svg
+                          class="sites-children-wrapper-usersAndLocation-col-icon"
+                        >
+                          Divider.svg
+                        </svg>
+                        <div
+                          class="ant-col sites-children-wrapper-usersAndLocation-col"
+                        >
+                          <svg>
+                            Location2.svg
+                          </svg>
+                          Galway, Ireland
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="ant-col"
+                    >
+                      <svg
+                        class="sites-children-wrapper-add-icon"
+                      >
+                        AddIconGreenUnShaded.svg
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="sites-children"
+            >
+              <div
+                class="ant-col ant-col-md-1"
+              >
+                <svg>
+                  Drag.svg
+                </svg>
+              </div>
+              <div
+                class="ant-space ant-space-horizontal ant-space-align-center condition-container"
+                style="border: 2px solid #d3d6d9; display: flex; flex-direction: column; margin-bottom: 0.5rem; padding: 20px 30px 12px 20px;"
+              >
+                <div
+                  class="ant-space-item"
+                >
+                  <div
+                    class="ant-row sites-children-wrapper"
+                  >
+                    <div
+                      class="ant-col"
+                    >
+                      <div
+                        class="ant-row sites-children-wrapper-university"
+                      >
+                        The Mater Misericordiae University Hospital
+                      </div>
+                      <div>
+                        <div
+                          class="ant-row sites-children-wrapper-linked"
+                        >
+                          <svg>
+                            Link.svg
+                          </svg>
+                          2 linked sites
+                        </div>
+                      </div>
+                      <div
+                        class="ant-row sites-children-wrapper-usersAndLocation"
+                      >
+                        <div
+                          class="ant-col sites-children-wrapper-usersAndLocation-col"
+                        >
+                          <svg>
+                            UserAdd.svg
+                          </svg>
+                          231
+                        </div>
+                        <svg
+                          class="sites-children-wrapper-usersAndLocation-col-icon"
+                        >
+                          Divider.svg
+                        </svg>
+                        <div
+                          class="ant-col sites-children-wrapper-usersAndLocation-col"
+                        >
+                          <svg>
+                            UserDelete.svg
+                          </svg>
+                          17
+                        </div>
+                        <svg
+                          class="sites-children-wrapper-usersAndLocation-col-icon"
+                        >
+                          Divider.svg
+                        </svg>
+                        <div
+                          class="ant-col sites-children-wrapper-usersAndLocation-col"
+                        >
+                          3
+                          <svg>
+                            Star.svg
+                          </svg>
+                        </div>
+                        <svg
+                          class="sites-children-wrapper-usersAndLocation-col-icon"
+                        >
+                          Divider.svg
+                        </svg>
+                        <div
+                          class="ant-col sites-children-wrapper-usersAndLocation-col"
+                        >
+                          <svg>
+                            Location2.svg
+                          </svg>
+                          Dublin, Ireland
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="ant-col"
+                    >
+                      <svg
+                        class="sites-children-wrapper-add-icon"
+                      >
+                        AddIconGreenUnShaded.svg
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

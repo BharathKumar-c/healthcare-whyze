@@ -1,0 +1,93 @@
+.setting-modal {
+    .modal-title {
+        display: flex;
+        flex-direction: row;
+
+        &-bg {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-image: url("../../../assets/BackgroundShape.svg");
+            background-repeat: no-repeat;
+            background-position-y: center;
+            background-position-x: center;
+            background-size: contain;
+        }
+
+        &-back {
+            margin: 6px 30px 0 0;
+            cursor: pointer;
+        }
+    }
+
+    .mb {
+        margin-bottom: 20px;
+    }
+
+    .share-button {
+        margin-top: 6px;
+        color: white !important;
+        text-transform: capitalize;
+        background-color: #0D5959 !important;
+        border-radius: 1rem;
+        border: 1px solid #0D5959 !important;
+        font-size: 12px;
+        font-weight: 700;
+        padding: 0rem 2rem 0rem 2rem;
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+
+        &:hover {
+            color: white;
+            background-color: #0D5959 !important;
+            border: 1px solid #0D5959 !important;
+        }
+
+        svg {
+            margin-right: 10px;
+        }
+    }
+
+    .label {
+        flex-grow: 1;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 140%;
+        color: #2D3339 !important;
+        margin-bottom: 5px;
+    }
+
+    .sub-label {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        color: #6C757F;
+    }
+
+
+    .ant-modal-header,
+    .ant-modal-footer {
+        border: none;
+    }
+
+    .ant-segmented-item-label {
+        padding: 0 40px !important;
+    }
+
+    .tag-container {
+        background: #EAEDF1;
+        padding: 0 10px;
+        display: flex;
+        align-items: center;
+        border-radius: 15px;
+    }
+
+    .tag-label {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #2D3339;
+    }
+}

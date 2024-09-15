@@ -1,0 +1,17 @@
+@import '../../../common_styles/common_variable.scss';
+
+.select {
+    &-lable {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 140%;
+        color: $primary-text-color;
+        margin-bottom: 5px;
+    }
+}
+
+.alignment {
+    display: flex;
+    flex-direction: column;
+}

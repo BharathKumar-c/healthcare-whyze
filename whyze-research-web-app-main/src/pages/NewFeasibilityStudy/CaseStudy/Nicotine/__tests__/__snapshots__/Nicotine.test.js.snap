@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test cases for Nicotine Create the snapshots for Nicotine 1`] = `
+<div>
+  <div
+    class="indication"
+  >
+    <div
+      id="main_textbox"
+    >
+      <span
+        class="ant-typography input-lable"
+      >
+        Nicotine condition
+      </span>
+      <input
+        class="ant-input"
+        data-testid="main_textbox"
+        placeholder=""
+        style="border-radius: 0px;"
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      style="height: 30px;"
+    >
+      <div
+        class="ant-image"
+        style="width: 11px; height: 11px;"
+      >
+        <img
+          alt="nicotine-add-icon"
+          class="ant-image-img"
+          height="11"
+          src="AddIcon.svg"
+          style="height: 11px; cursor: pointer;"
+          width="11"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

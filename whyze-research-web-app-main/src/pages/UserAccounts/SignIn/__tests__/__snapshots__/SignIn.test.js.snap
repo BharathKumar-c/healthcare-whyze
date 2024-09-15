@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test cases for sign in Create the snapshots for signIn 1`] = `
+<div>
+  <div
+    class="sign-in-component"
+  >
+    <div
+      class="sign-in-component-logo"
+    >
+      <svg>
+        WhyzeLogo.svg
+      </svg>
+      WHYZE
+    </div>
+    <div
+      class="sign-in-component-title"
+    >
+      Sign in
+    </div>
+    <div
+      class="sign-in-component-input-box"
+    >
+      <div
+        id="main_textbox"
+      >
+        <span
+          class="ant-typography input-lable"
+        >
+          Company email
+        </span>
+        <input
+          class="ant-input"
+          data-testid="main_textbox"
+          name="email"
+          placeholder=""
+          style="border-radius: 0px;"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <div
+      class="sign-in-component-input-box"
+    >
+      <div>
+        <span
+          class="ant-typography input-lable"
+        >
+          Enter password
+        </span>
+        <span
+          class="ant-input-affix-wrapper"
+          style="border-radius: 0px;"
+        >
+          <input
+            class="ant-input"
+            name="password"
+            placeholder=""
+            type="password"
+            value=""
+          />
+          <span
+            class="ant-input-suffix"
+          >
+            <svg>
+              ShowpassIcon.svg
+            </svg>
+          </span>
+        </span>
+      </div>
+    </div>
+    <div
+      class="sign-in-component-button-group"
+    >
+      <button
+        class="ant-btn ant-btn-default ant-btn-lg"
+        type="button"
+      >
+        <span>
+          Sign in
+        </span>
+      </button>
+    </div>
+    <div
+      class="sign-in-component-setup-acc-underline"
+    >
+      <a>
+        Forgot Password
+      </a>
+    </div>
+    <div
+      class="sign-in-component-setupaccount-link"
+    >
+      <h3>
+        Don’t have an account yet?
+         
+        <a>
+          Set up account
+        </a>
+      </h3>
+    </div>
+  </div>
+</div>
+`;

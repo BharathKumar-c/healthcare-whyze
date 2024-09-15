@@ -1,0 +1,95 @@
+@import '../../../common_styles/common_variable.scss';
+
+.project {
+
+    &-layout {
+        background: $white-color;
+        box-shadow: 0px 2px 8px rgba(57, 45, 46, 0.12);
+        border-radius: 8px;
+        width: 300px;
+        padding: 15px 12px 0;
+        margin-right: 25px;
+        background-image: url('../../../assets/BackgroundPlus.svg'), url('../../../assets/BackgrondEllipse.svg');
+        background-position: right top, right bottom;
+        background-repeat: no-repeat, no-repeat;
+
+        &-header {
+            display: flex;
+            flex-direction: row;
+
+            &-right {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+            }
+        }
+
+        &-favourite {
+            cursor: pointer;
+        }
+
+        &-title {
+            display: inline-block;
+            flex-grow: 1;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            width: 50%;
+            margin-right: 15px;
+            @include font(400, 16px, 140%, $secondary-text-color !important)
+        }
+
+        &-created-text {
+            margin-right: 10px;
+            @include font(400, 12px, 16px, $secondary-text-color !important)
+        }
+
+        &-indication-title {
+            display: flex;
+            align-items: center;
+            margin: 8px 0 25px;
+            cursor: pointer;
+            @include font(700, 18px, 140%, $primary-text-color !important)
+        }
+
+        &-patient-site {
+            &-container {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+
+                &-alignment {
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    width: 50%;
+                }
+
+                &-icon {
+                    margin-right: 10px;
+
+                    path {
+                        fill: $primary-text-color;
+                    }
+                }
+
+            }
+
+            &-text {
+                @include font(400, 18px, 140%, $tertiary-text-color !important)
+            }
+        }
+
+        &-users {
+            display: inline-flex !important;
+            flex-direction: row;
+            margin: 10px 0 0 12px;
+
+            &-container {
+                height: 24px;
+                margin-left: -10px;
+                width: 24px;
+            }
+        }
+    }
+}

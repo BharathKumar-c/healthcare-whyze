@@ -1,0 +1,836 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test cases for PreferredSitesTab  should container render check 1`] = `
+<div>
+  <div
+    class="preferred-list-pagination-container"
+  >
+    <div
+      class="preferred-list-alignment"
+    >
+      <div
+        class="preferred-list-alignment"
+      >
+        <div
+          class="preferred-list-checkbox"
+        >
+          <label
+            class="ant-checkbox-wrapper ant-checkbox-wrapper-checked"
+          >
+            <span
+              class="ant-checkbox ant-checkbox-checked"
+            >
+              <input
+                class="ant-checkbox-input"
+                name="sites"
+                type="checkbox"
+                value=""
+              />
+              <span
+                class="ant-checkbox-inner"
+              />
+            </span>
+          </label>
+          <span
+            class="ant-typography"
+            style="margin-left: 1rem;"
+          >
+            1 Sites
+          </span>
+        </div>
+        <div
+          class="ant-divider ant-divider-vertical preferred-list-divider"
+          role="separator"
+        />
+      </div>
+    </div>
+    <div
+      class="preferred-list-options"
+    >
+      <div
+        class="preferred-list-option-alignment"
+      >
+        <div
+          class="preferred-list-option"
+        >
+          <div
+            class="preferred-list-icon"
+          >
+            <svg>
+              Delete.svg
+            </svg>
+          </div>
+          <span
+            class="ant-typography preferred-list-text"
+          >
+            Delete
+          </span>
+        </div>
+      </div>
+      <div
+        class="preferred-list-option-alignment"
+      >
+        <div
+          class="preferred-list-option"
+        >
+          <div
+            class="preferred-list-icon"
+          >
+            <svg>
+              Contact.svg
+            </svg>
+          </div>
+          <span
+            class="ant-typography preferred-list-text"
+          >
+            Mark contacted
+          </span>
+        </div>
+      </div>
+      <div
+        class="preferred-list-option-alignment"
+      >
+        <div
+          class="preferred-list-option"
+        >
+          <div
+            class="preferred-list-icon"
+          >
+            <svg>
+              Initiated.svg
+            </svg>
+          </div>
+          <span
+            class="ant-typography preferred-list-text"
+          >
+            Mark initiated
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="preferred-list-alignment"
+    >
+      <span
+        class="ant-typography preferred-list-pagination-text"
+      >
+        1-1 of 1
+      </span>
+      <div
+        class="preferred-list-arrow-icon"
+      >
+        <svg
+          class="preferred-list-arrow-left"
+        >
+          LeftArrow.svg
+        </svg>
+        <svg
+          class="preferred-list-arrow-right"
+        >
+          RightArrow.svg
+        </svg>
+      </div>
+    </div>
+  </div>
+  <div
+    class="preferred-list-children"
+  >
+    <div
+      class="ant-col ant-col-md-1"
+    >
+      <div
+        class="handleChecked-checkbox"
+      >
+        <label
+          class="ant-checkbox-wrapper ant-checkbox-wrapper-checked"
+        >
+          <span
+            class="ant-checkbox ant-checkbox-checked"
+          >
+            <input
+              checked=""
+              class="ant-checkbox-input"
+              type="checkbox"
+              value=""
+            />
+            <span
+              class="ant-checkbox-inner"
+            />
+          </span>
+        </label>
+        <span
+          class="ant-typography"
+          style="margin-left: 1rem;"
+        />
+      </div>
+    </div>
+    <div
+      class="ant-space ant-space-horizontal ant-space-align-center selected-condition-container"
+      style="border: 2px solid #d3d6d9; display: flex; flex-direction: column; margin-bottom: 0.5rem; padding: 20px 30px 12px 20px;"
+    >
+      <div
+        class="ant-space-item"
+      >
+        <div
+          class="ant-row preferred-list-children-wrapper"
+        >
+          <div
+            class="ant-col"
+          >
+            <div
+              class="ant-row preferred-list-children-wrapper-university"
+            >
+              University College Hospital at Westmoreland Street
+            </div>
+            <div
+              class="ant-row preferred-list-children-wrapper-usersAndLocation"
+            >
+              <div
+                class="ant-col preferred-list-children-wrapper-usersAndLocation-col"
+              >
+                <svg>
+                  UserCheck.svg
+                </svg>
+                87
+              </div>
+              <svg
+                class="preferred-list-children-wrapper-usersAndLocation-col-icon"
+              >
+                Divider.svg
+              </svg>
+              <div
+                class="ant-col preferred-list-children-wrapper-usersAndLocation-col"
+              >
+                <svg>
+                  UserDelete.svg
+                </svg>
+                6
+              </div>
+              <svg
+                class="preferred-list-children-wrapper-usersAndLocation-col-icon"
+              >
+                Divider.svg
+              </svg>
+              <div
+                class="ant-col preferred-list-children-wrapper-usersAndLocation-col"
+              >
+                4.1
+                <svg>
+                  Star.svg
+                </svg>
+              </div>
+              <svg
+                class="preferred-list-children-wrapper-usersAndLocation-col-icon"
+              >
+                Divider.svg
+              </svg>
+              <div
+                class="ant-col preferred-list-children-wrapper-usersAndLocation-col"
+              >
+                <svg>
+                  Location2.svg
+                </svg>
+                London, UK
+              </div>
+            </div>
+          </div>
+          <div
+            class="ant-col preferred-list-children-wrapper-info"
+          >
+            <div
+              class="sitesContacted-trigger"
+            >
+              <svg>
+                Contact.svg
+              </svg>
+            </div>
+            <div
+              class="sitesInitiated-trigger"
+            >
+              <svg>
+                Initiated.svg
+              </svg>
+            </div>
+            <div
+              class="toggles-for-expand"
+            >
+              <svg
+                class="ArrowDown-toggle"
+              >
+                Dropdown.svg
+              </svg>
+            </div>
+          </div>
+          <div
+            class="content"
+          >
+            <div
+              class="modal-children-container"
+            >
+              <div
+                class="modal-children-container_patient-segment-container"
+              >
+                <h4>
+                  Patient segment
+                </h4>
+                <div
+                  class="ant-row"
+                >
+                  <div
+                    class="ant-col ant-col-12"
+                  >
+                    <div
+                      class="Connectsites"
+                    >
+                      <svg>
+                        connectsites.svg
+                      </svg>
+                      <h3>
+                        87
+                      </h3>
+                    </div>
+                    <p>
+                      Connected with this site
+                    </p>
+                  </div>
+                  <div
+                    class="ant-col ant-col-12"
+                  >
+                    <div
+                      class="Catchmentsites"
+                    >
+                      <svg>
+                        catchmentsites.svg
+                      </svg>
+                      <h3>
+                        6
+                      </h3>
+                    </div>
+                    <p>
+                      Additional Whyze patients in site catchment areas
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="modal-children-container_patient-segment-rating"
+              >
+                <div
+                  class="ant-row"
+                >
+                  <div
+                    class="ant-col ant-col-8"
+                  >
+                    <div
+                      class="Rating"
+                    >
+                      <h3>
+                        4.1
+                      </h3>
+                      <ul
+                        class="ant-rate"
+                        role="radiogroup"
+                        tabindex="0"
+                      >
+                        <li
+                          class="ant-rate-star ant-rate-star-full"
+                        >
+                          <div
+                            aria-checked="true"
+                            aria-posinset="1"
+                            aria-setsize="5"
+                            role="radio"
+                            tabindex="0"
+                          >
+                            <div
+                              class="ant-rate-star-first"
+                            >
+                              <span
+                                aria-label="star"
+                                class="anticon anticon-star"
+                                role="img"
+                              >
+                                <svg
+                                  aria-hidden="true"
+                                  data-icon="star"
+                                  fill="currentColor"
+                                  focusable="false"
+                                  height="1em"
+                                  viewBox="64 64 896 896"
+                                  width="1em"
+                                >
+                                  <path
+                                    d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 00.6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0046.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+                                  />
+                                </svg>
+                              </span>
+                            </div>
+                            <div
+                              class="ant-rate-star-second"
+                            >
+                              <span
+                                aria-label="star"
+                                class="anticon anticon-star"
+                                role="img"
+                              >
+                                <svg
+                                  aria-hidden="true"
+                                  data-icon="star"
+                                  fill="currentColor"
+                                  focusable="false"
+                                  height="1em"
+                                  viewBox="64 64 896 896"
+                                  width="1em"
+                                >
+                                  <path
+                                    d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 00.6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0046.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+                                  />
+                                </svg>
+                              </span>
+                            </div>
+                          </div>
+                        </li>
+                        <li
+                          class="ant-rate-star ant-rate-star-full"
+                        >
+                          <div
+                            aria-checked="true"
+                            aria-posinset="2"
+                            aria-setsize="5"
+                            role="radio"
+                            tabindex="0"
+                          >
+                            <div
+                              class="ant-rate-star-first"
+                            >
+                              <span
+                                aria-label="star"
+                                class="anticon anticon-star"
+                                role="img"
+                              >
+                                <svg
+                                  aria-hidden="true"
+                                  data-icon="star"
+                                  fill="currentColor"
+                                  focusable="false"
+                                  height="1em"
+                                  viewBox="64 64 896 896"
+                                  width="1em"
+                                >
+                                  <path
+                                    d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 00.6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0046.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+                                  />
+                                </svg>
+                              </span>
+                            </div>
+                            <div
+                              class="ant-rate-star-second"
+                            >
+                              <span
+                                aria-label="star"
+                                class="anticon anticon-star"
+                                role="img"
+                              >
+                                <svg
+                                  aria-hidden="true"
+                                  data-icon="star"
+                                  fill="currentColor"
+                                  focusable="false"
+                                  height="1em"
+                                  viewBox="64 64 896 896"
+                                  width="1em"
+                                >
+                                  <path
+                                    d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 00.6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0046.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+                                  />
+                                </svg>
+                              </span>
+                            </div>
+                          </div>
+                        </li>
+                        <li
+                          class="ant-rate-star ant-rate-star-full"
+                        >
+                          <div
+                            aria-checked="true"
+                            aria-posinset="3"
+                            aria-setsize="5"
+                            role="radio"
+                            tabindex="0"
+                          >
+                            <div
+                              class="ant-rate-star-first"
+                            >
+                              <span
+                                aria-label="star"
+                                class="anticon anticon-star"
+                                role="img"
+                              >
+                                <svg
+                                  aria-hidden="true"
+                                  data-icon="star"
+                                  fill="currentColor"
+                                  focusable="false"
+                                  height="1em"
+                                  viewBox="64 64 896 896"
+                                  width="1em"
+                                >
+                                  <path
+                                    d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 00.6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0046.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+                                  />
+                                </svg>
+                              </span>
+                            </div>
+                            <div
+                              class="ant-rate-star-second"
+                            >
+                              <span
+                                aria-label="star"
+                                class="anticon anticon-star"
+                                role="img"
+                              >
+                                <svg
+                                  aria-hidden="true"
+                                  data-icon="star"
+                                  fill="currentColor"
+                                  focusable="false"
+                                  height="1em"
+                                  viewBox="64 64 896 896"
+                                  width="1em"
+                                >
+                                  <path
+                                    d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 00.6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0046.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+                                  />
+                                </svg>
+                              </span>
+                            </div>
+                          </div>
+                        </li>
+                        <li
+                          class="ant-rate-star ant-rate-star-full"
+                        >
+                          <div
+                            aria-checked="true"
+                            aria-posinset="4"
+                            aria-setsize="5"
+                            role="radio"
+                            tabindex="0"
+                          >
+                            <div
+                              class="ant-rate-star-first"
+                            >
+                              <span
+                                aria-label="star"
+                                class="anticon anticon-star"
+                                role="img"
+                              >
+                                <svg
+                                  aria-hidden="true"
+                                  data-icon="star"
+                                  fill="currentColor"
+                                  focusable="false"
+                                  height="1em"
+                                  viewBox="64 64 896 896"
+                                  width="1em"
+                                >
+                                  <path
+                                    d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 00.6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0046.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+                                  />
+                                </svg>
+                              </span>
+                            </div>
+                            <div
+                              class="ant-rate-star-second"
+                            >
+                              <span
+                                aria-label="star"
+                                class="anticon anticon-star"
+                                role="img"
+                              >
+                                <svg
+                                  aria-hidden="true"
+                                  data-icon="star"
+                                  fill="currentColor"
+                                  focusable="false"
+                                  height="1em"
+                                  viewBox="64 64 896 896"
+                                  width="1em"
+                                >
+                                  <path
+                                    d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 00.6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0046.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+                                  />
+                                </svg>
+                              </span>
+                            </div>
+                          </div>
+                        </li>
+                        <li
+                          class="ant-rate-star ant-rate-star-zero"
+                        >
+                          <div
+                            aria-checked="true"
+                            aria-posinset="5"
+                            aria-setsize="5"
+                            role="radio"
+                            tabindex="0"
+                          >
+                            <div
+                              class="ant-rate-star-first"
+                            >
+                              <span
+                                aria-label="star"
+                                class="anticon anticon-star"
+                                role="img"
+                              >
+                                <svg
+                                  aria-hidden="true"
+                                  data-icon="star"
+                                  fill="currentColor"
+                                  focusable="false"
+                                  height="1em"
+                                  viewBox="64 64 896 896"
+                                  width="1em"
+                                >
+                                  <path
+                                    d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 00.6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0046.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+                                  />
+                                </svg>
+                              </span>
+                            </div>
+                            <div
+                              class="ant-rate-star-second"
+                            >
+                              <span
+                                aria-label="star"
+                                class="anticon anticon-star"
+                                role="img"
+                              >
+                                <svg
+                                  aria-hidden="true"
+                                  data-icon="star"
+                                  fill="currentColor"
+                                  focusable="false"
+                                  height="1em"
+                                  viewBox="64 64 896 896"
+                                  width="1em"
+                                >
+                                  <path
+                                    d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 00.6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0046.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+                                  />
+                                </svg>
+                              </span>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div
+                    class="ant-col ant-col-8"
+                  >
+                    <div
+                      class="Rating"
+                    >
+                      <h3>
+                        0.0 months
+                      </h3>
+                      <p>
+                        Recruitment timeline
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    class="ant-col ant-col-8"
+                  >
+                    <div
+                      class="Rating"
+                    >
+                      <h3>
+                         
+                        <svg>
+                          Trending.svg
+                        </svg>
+                        00.00%
+                      </h3>
+                      <p>
+                        Drop out rate
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="modal-children-container_track-recoder-container"
+            >
+              <h4>
+                Track record of doing trials
+              </h4>
+              <div
+                class="ant-row"
+              >
+                <div
+                  class="ant-col rating-wrapper"
+                >
+                  <div>
+                    <h3>
+                       
+                      <svg>
+                        Trending.svg
+                      </svg>
+                      XX trials
+                    </h3>
+                  </div>
+                  <p>
+                    Completed in the past year
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="modal-children-container_details-container"
+            >
+              <div
+                class="ant-row"
+              >
+                <div
+                  class="ant-col ant-col-12"
+                >
+                  <div
+                    class="Primary-Investigator"
+                  >
+                    <h3>
+                      Name Surname
+                    </h3>
+                  </div>
+                  <p>
+                    Primary Investigator
+                  </p>
+                  <h4>
+                    <svg>
+                      Phone.svg
+                    </svg>
+                    Phone number
+                  </h4>
+                  <h4>
+                    <svg>
+                      world-2.svg
+                    </svg>
+                    Email address
+                  </h4>
+                </div>
+                <div
+                  class="ant-col ant-col-12"
+                >
+                  <div
+                    class="Administration-Investigator"
+                  >
+                    <h3>
+                      Name Surname
+                    </h3>
+                  </div>
+                  <p>
+                    Administration
+                  </p>
+                  <h4>
+                    <svg>
+                      Phone.svg
+                    </svg>
+                    Phone number
+                  </h4>
+                  <h4>
+                    <svg>
+                      world-2.svg
+                    </svg>
+                    Email address
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div
+              class="modal-children-container_industry-avarage-rating"
+            >
+              <div
+                class="ant-row"
+              >
+                <div
+                  class="ant-col ant-col-6"
+                >
+                  <div>
+                    <h3>
+                       
+                      <svg>
+                        Trending.svg
+                      </svg>
+                      00.00%
+                    </h3>
+                    <p>
+                      Screen fail rate
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="ant-col ant-col-6"
+                >
+                  <div>
+                    <span
+                      class="ant-tag ant-tag-error tag"
+                    >
+                      <svg>
+                        Trending.svg
+                      </svg>
+                      <span>
+                         
+                        26.7%
+                      </span>
+                    </span>
+                    <p>
+                      Industry average
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="ant-col ant-col-6"
+                >
+                  <div>
+                    <h3>
+                       
+                      <svg>
+                        Trending.svg
+                      </svg>
+                      00.00%
+                    </h3>
+                    <p>
+                      Avg. response time
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="ant-col ant-col-6"
+                >
+                  <div>
+                    <span
+                      class="ant-tag ant-tag-error tag"
+                    >
+                      <svg>
+                        Trending.svg
+                      </svg>
+                      <span>
+                         
+                        2.5 months
+                      </span>
+                    </span>
+                    <p>
+                      Industry average
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

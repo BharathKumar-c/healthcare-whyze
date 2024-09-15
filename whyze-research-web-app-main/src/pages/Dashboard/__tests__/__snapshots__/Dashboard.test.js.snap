@@ -1,0 +1,422 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test case for Dashbaord Dashboard render check 1`] = `
+<div>
+  <div
+    id="dashboard"
+  >
+    <div
+      class="dashboard"
+    >
+      <div
+        class="dashboard-container"
+      >
+        <span
+          class="ant-typography dashboard-title"
+        >
+          Welcome Anne!
+        </span>
+        <div
+          class="dashboard-content"
+        >
+          <span
+            class="ant-typography dashboard-content-text"
+          >
+            See how Whyze is preforming for researchers like you.
+          </span>
+        </div>
+        <div
+          class="ant-row"
+        >
+          <div
+            class="ant-col ant-col-6 dashboard-detail-box"
+          >
+            <div
+              class="ant-row ant-row-middle"
+            >
+              <div
+                class="ant-col ant-col-5"
+              >
+                <div
+                  class="dashboard-patient-icon"
+                >
+                  <svg>
+                    PopulationVector.svg
+                  </svg>
+                </div>
+              </div>
+              <div
+                class="ant-col ant-col-19 dashboard-patient-text"
+              >
+                Patients
+              </div>
+            </div>
+            <div
+              class="ant-row"
+            >
+              <div
+                class="ant-col ant-col-5"
+              />
+              <div
+                class="ant-col ant-col-19 dashboard-patient-container"
+              >
+                <div
+                  class="dashboard-alignment"
+                >
+                  <div
+                    class="dashboard-patient-total"
+                    span="10"
+                  >
+                    455K
+                  </div>
+                  <div
+                    class="dashboard-patient-total-text"
+                    span="14"
+                  >
+                    Total patients
+                  </div>
+                </div>
+                <div
+                  class="dashboard-patient-grow-container"
+                >
+                  <svg>
+                    ArrowUp.svg
+                  </svg>
+                  <span
+                    class="ant-typography dashboard-patient-grow-percentage"
+                  >
+                    25%
+                  </span>
+                  <span
+                    class="ant-typography dashboard-patient-grow-text"
+                  >
+                    monthly growth
+                  </span>
+                </div>
+                <div
+                  class="dashboard-alignment"
+                >
+                  <div
+                    class="dashboard-patient-total"
+                  >
+                    35
+                  </div>
+                  <div
+                    class="dashboard-patient-total-text"
+                  >
+                    Countries
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="ant-col ant-col-6 dashboard-detail-box"
+          >
+            <div
+              class="ant-row ant-row-middle"
+            >
+              <div
+                class="ant-col ant-col-5"
+              >
+                <div
+                  class="dashboard-sites-icon"
+                >
+                  <svg>
+                    Sites.svg
+                  </svg>
+                </div>
+              </div>
+              <div
+                class="ant-col ant-col-19 dashboard-patient-text"
+              >
+                Sites
+              </div>
+            </div>
+            <div
+              class="ant-row"
+            >
+              <div
+                class="ant-col ant-col-5"
+              />
+              <div
+                class="ant-col ant-col-19"
+              >
+                <div
+                  class="dashboard-alignment"
+                >
+                  <div
+                    class="dashboard-patient-total"
+                  >
+                    9000
+                  </div>
+                  <div
+                    class="dashboard-patient-total-text"
+                  >
+                    Sites recruited
+                  </div>
+                </div>
+                <div
+                  class="dashboard-patient-grow-container"
+                >
+                  <svg>
+                    ArrowUp.svg
+                  </svg>
+                  <span
+                    class="ant-typography dashboard-patient-grow-percentage"
+                  >
+                    12%
+                  </span>
+                  <span
+                    class="ant-typography dashboard-patient-grow-text"
+                  >
+                    monthly growth
+                  </span>
+                </div>
+                <div
+                  class="dashboard-alignment"
+                >
+                  <div
+                    class="dashboard-patient-total"
+                  >
+                    1.5 wk
+                  </div>
+                  <div
+                    class="dashboard-patient-total-text"
+                  >
+                    Avg. response time
+                  </div>
+                </div>
+                <div
+                  class="dashboard-patient-grow-container"
+                >
+                  <svg>
+                    ArrowUp.svg
+                  </svg>
+                  <span
+                    class="ant-typography dashboard-patient-grow-percentage"
+                  >
+                    20% faster
+                  </span>
+                  <span
+                    class="ant-typography dashboard-patient-grow-text"
+                  >
+                    than industry
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="ant-col ant-col-10 dashboard-detail-box"
+          >
+            <div
+              class="ant-row ant-row-middle"
+            >
+              <div
+                class="ant-col ant-col-3"
+              >
+                <div
+                  class="dashboard-trials-icon"
+                >
+                  <svg>
+                    TestTube.svg
+                  </svg>
+                </div>
+              </div>
+              <div
+                class="ant-col ant-col-21 dashboard-patient-text"
+              >
+                Trials
+              </div>
+            </div>
+            <div
+              class="ant-row"
+            >
+              <div
+                class="ant-col ant-col-3"
+              />
+              <div
+                class="ant-col ant-col-21"
+              >
+                <div
+                  class="dashboard-alignment-trail"
+                >
+                  <div
+                    class="dashboard-trials-left"
+                  >
+                    <div
+                      class="dashboard-alignment"
+                    >
+                      <div
+                        class="dashboard-patient-total"
+                      >
+                        800
+                      </div>
+                      <div
+                        class="dashboard-patient-total-text"
+                      >
+                        Active trials
+                      </div>
+                    </div>
+                    <div
+                      class="dashboard-patient-grow-container"
+                    >
+                      <svg>
+                        ArrowUp.svg
+                      </svg>
+                      <span
+                        class="ant-typography dashboard-patient-grow-percentage"
+                      >
+                        12%
+                      </span>
+                      <span
+                        class="ant-typography dashboard-patient-grow-text"
+                      >
+                        monthly growth
+                      </span>
+                    </div>
+                    <div
+                      class="dashboard-alignment"
+                    >
+                      <div
+                        class="dashboard-patient-total"
+                      >
+                        12K
+                      </div>
+                      <div
+                        class="dashboard-patient-total-text"
+                      >
+                        Total trials
+                      </div>
+                    </div>
+                    <div
+                      class="dashboard-patient-grow-container-gray"
+                    >
+                      <span
+                        class="ant-typography dashboard-patient-grow-container-gray-percentage"
+                      >
+                        In less than 4 years
+                      </span>
+                    </div>
+                  </div>
+                  <div
+                    class="dashboard-vertical-divider-container"
+                  >
+                    <div
+                      class="dashboard-vertical-divider"
+                    />
+                  </div>
+                  <div
+                    class="dashboard-trials-right"
+                  >
+                    <div>
+                      <div
+                        class="dashboard-alignment"
+                      >
+                        <div
+                          class="dashboard-patient-total"
+                        >
+                          155
+                        </div>
+                        <div
+                          class="dashboard-patient-total-text"
+                        >
+                          Screen fail rate
+                        </div>
+                      </div>
+                      <div
+                        class="dashboard-patient-grow-container"
+                      >
+                        <svg>
+                          ArrowDown.svg
+                        </svg>
+                        <span
+                          class="ant-typography dashboard-patient-grow-percentage"
+                        >
+                          20% lower
+                        </span>
+                        <span
+                          class="ant-typography dashboard-patient-grow-text"
+                        >
+                          than industry
+                        </span>
+                      </div>
+                      <div
+                        class="dashboard-alignment"
+                      >
+                        <div
+                          class="dashboard-patient-total"
+                        >
+                          3 months
+                        </div>
+                        <div
+                          class="dashboard-patient-total-text"
+                        >
+                          Avg. time to recruit
+                        </div>
+                      </div>
+                      <div
+                        class="dashboard-patient-grow-container"
+                      >
+                        <svg>
+                          ArrowUp.svg
+                        </svg>
+                        <span
+                          class="ant-typography dashboard-patient-grow-percentage"
+                        >
+                          20% faster
+                        </span>
+                        <span
+                          class="ant-typography dashboard-patient-grow-text"
+                        >
+                          than industry
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="dashboard-patient-study-container"
+        >
+          <div
+            class="dashboard-patient-study-text"
+          >
+            <div>
+              <span
+                class="ant-typography dashboard-title"
+              >
+                Create your first study
+              </span>
+            </div>
+            <div>
+              <span
+                class="ant-typography dashboard-patient-study-content"
+              >
+                Define your protocol or create your first feasibility study
+              </span>
+            </div>
+          </div>
+          <div
+            class="dashboard-patient-study-btn"
+          >
+            <button
+              class="ant-btn ant-btn-default dashboard-patient-study-button"
+              data-testid="dashboard-patient-study-button"
+              type="button"
+            >
+              <span>
+                Let's go
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

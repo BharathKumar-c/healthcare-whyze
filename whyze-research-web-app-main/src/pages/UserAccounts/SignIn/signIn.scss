@@ -1,0 +1,95 @@
+@import '../../../common_styles/common_variable';
+
+.sign-in-component {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url('../../../assets/EllipseTop.svg'), url('../../../assets/EllipseBottom.svg');
+    background-position: left top, right bottom;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 300px 300px;
+    padding: 2.5rem;
+
+    &-logo {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 1rem;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+
+    &-title {
+        font-size: 36px;
+        font-weight: 700;
+        padding-top: 0.5rem;
+        padding-bottom: 1rem;
+    }
+
+    &-input-box {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        padding: 0.5rem;
+        width: 350px;
+    }
+
+    &-setupaccount-link {
+        padding: 1rem;
+
+        a {
+            text-decoration: none;
+            color: $anchor-tag;
+        }
+    }
+
+    &-button-group {
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        margin: 1.5rem;
+
+        &_label{
+            text-transform: none;
+        }
+
+        button {
+            border-radius: 100px;
+            font-size: 15px;
+            font-weight: 500;
+            text-transform: capitalize;
+            padding: 0rem 8rem 0rem 8rem;
+            height: 42px;
+            width: 330px;
+
+
+            &:nth-child(1) {
+                background: $primary-color;
+                color: white;
+                border: none;
+
+            }
+        }
+    }
+
+    &-setup-acc {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 400;
+        font-size: 16px;
+
+        &-underline {
+            margin-left: 0.5rem;
+            text-decoration: underline;
+            cursor: pointer;
+
+            a {
+                color: $anchor-tag;
+            }
+        }
+    }
+}

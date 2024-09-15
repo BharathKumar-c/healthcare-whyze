@@ -1,0 +1,401 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test cases for History Of Changes Create the snapshots for History Of Changes 1`] = `
+<div>
+  <div
+    class="HistoryOfChanges-wrapper"
+  >
+    <h3>
+      History Of Changes
+    </h3>
+    <div
+      class="HistoryOfChanges-wrapper_Total-population"
+    >
+      <svg>
+        PopulationVector.svg
+      </svg>
+      <p>
+        Initial population : 
+        0
+      </p>
+    </div>
+    <div>
+      <div
+        class="HistoryOfChanges-wrapper_Initial-population"
+      >
+        <p>
+          Indication
+        </p>
+      </div>
+      <div>
+        <div
+          class="ant-tree ant-tree-show-line"
+          role="tree"
+        >
+          <div>
+            <input
+              aria-label="for screen reader"
+              style="width: 0px; height: 0px; display: flex; overflow: hidden; opacity: 0; border: 0px; padding: 0px; margin: 0px;"
+              tabindex="0"
+              value=""
+            />
+          </div>
+          <div
+            aria-hidden="true"
+            class="ant-tree-treenode"
+            style="position: absolute; pointer-events: none; visibility: hidden; height: 0px; overflow: hidden; border: 0px; padding: 0px;"
+          >
+            <div
+              class="ant-tree-indent"
+            >
+              <div
+                class="ant-tree-indent-unit"
+              />
+            </div>
+          </div>
+          <div
+            class="ant-tree-list"
+            style="position: relative;"
+          >
+            <div
+              class="ant-tree-list-holder"
+            >
+              <div>
+                <div
+                  class="ant-tree-list-holder-inner"
+                  style="display: flex; flex-direction: column;"
+                >
+                  <div
+                    aria-grabbed="false"
+                    class="ant-tree-treenode ant-tree-treenode-switcher-open ant-tree-treenode-leaf-last"
+                    draggable="false"
+                  >
+                    <span
+                      aria-hidden="true"
+                      class="ant-tree-indent"
+                    />
+                    <span
+                      class="ant-tree-switcher ant-tree-switcher_open"
+                    >
+                      <svg
+                        class="ant-tree-switcher-icon"
+                      >
+                        Node.svg
+                      </svg>
+                    </span>
+                    <span
+                      class="ant-tree-node-content-wrapper ant-tree-node-content-wrapper-open"
+                      title="T"
+                    >
+                      <span
+                        class="ant-tree-iconEle ant-tree-icon__customize"
+                      >
+                        <div
+                          class="icons-wrapper"
+                        >
+                          <span>
+                            0
+                          </span>
+                          <button
+                            aria-checked="false"
+                            class="ant-switch ant-switch-small"
+                            role="switch"
+                            type="button"
+                          >
+                            <div
+                              class="ant-switch-handle"
+                            />
+                            <span
+                              class="ant-switch-inner"
+                            />
+                          </button>
+                        </div>
+                      </span>
+                      <span
+                        class="ant-tree-title"
+                      >
+                        T
+                      </span>
+                    </span>
+                  </div>
+                  <div
+                    aria-grabbed="false"
+                    class="ant-tree-treenode ant-tree-treenode-switcher-open ant-tree-treenode-leaf-last"
+                    draggable="false"
+                  >
+                    <span
+                      aria-hidden="true"
+                      class="ant-tree-indent"
+                    >
+                      <span
+                        class="ant-tree-indent-unit ant-tree-indent-unit-start ant-tree-indent-unit-end"
+                      />
+                    </span>
+                    <span
+                      class="ant-tree-switcher ant-tree-switcher-noop"
+                    >
+                      <span
+                        class="ant-tree-switcher-leaf-line"
+                      />
+                    </span>
+                    <span
+                      class="ant-tree-node-content-wrapper ant-tree-node-content-wrapper-normal"
+                      title="diagnosed"
+                    >
+                      <span
+                        class="ant-tree-iconEle ant-tree-icon__customize"
+                      >
+                        <div
+                          class="icons-wrapper"
+                        >
+                          <span>
+                            4K
+                          </span>
+                          <button
+                            aria-checked="false"
+                            class="ant-switch ant-switch-small"
+                            role="switch"
+                            type="button"
+                          >
+                            <div
+                              class="ant-switch-handle"
+                            />
+                            <span
+                              class="ant-switch-inner"
+                            />
+                          </button>
+                        </div>
+                      </span>
+                      <span
+                        class="ant-tree-title"
+                      >
+                        diagnosed
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div
+        class="HistoryOfChanges-wrapper_Initial-population"
+      >
+        <p>
+          Demographics
+        </p>
+      </div>
+      <div>
+        <div
+          class="ant-tree ant-tree-show-line"
+          role="tree"
+        >
+          <div>
+            <input
+              aria-label="for screen reader"
+              style="width: 0px; height: 0px; display: flex; overflow: hidden; opacity: 0; border: 0px; padding: 0px; margin: 0px;"
+              tabindex="0"
+              value=""
+            />
+          </div>
+          <div
+            aria-hidden="true"
+            class="ant-tree-treenode"
+            style="position: absolute; pointer-events: none; visibility: hidden; height: 0px; overflow: hidden; border: 0px; padding: 0px;"
+          >
+            <div
+              class="ant-tree-indent"
+            >
+              <div
+                class="ant-tree-indent-unit"
+              />
+            </div>
+          </div>
+          <div
+            class="ant-tree-list"
+            style="position: relative;"
+          >
+            <div
+              class="ant-tree-list-holder"
+            >
+              <div>
+                <div
+                  class="ant-tree-list-holder-inner"
+                  style="display: flex; flex-direction: column;"
+                >
+                  <div
+                    aria-grabbed="false"
+                    class="ant-tree-treenode ant-tree-treenode-switcher-open ant-tree-treenode-leaf-last"
+                    draggable="false"
+                  >
+                    <span
+                      aria-hidden="true"
+                      class="ant-tree-indent"
+                    />
+                    <span
+                      class="ant-tree-switcher ant-tree-switcher_open"
+                    >
+                      <svg
+                        class="ant-tree-switcher-icon"
+                      >
+                        Node.svg
+                      </svg>
+                    </span>
+                    <span
+                      class="ant-tree-node-content-wrapper ant-tree-node-content-wrapper-open"
+                      title="T"
+                    >
+                      <span
+                        class="ant-tree-iconEle ant-tree-icon__customize"
+                      >
+                        <div
+                          class="icons-wrapper"
+                        >
+                          <span>
+                            0
+                          </span>
+                          <button
+                            aria-checked="false"
+                            class="ant-switch ant-switch-small"
+                            role="switch"
+                            type="button"
+                          >
+                            <div
+                              class="ant-switch-handle"
+                            />
+                            <span
+                              class="ant-switch-inner"
+                            />
+                          </button>
+                        </div>
+                      </span>
+                      <span
+                        class="ant-tree-title"
+                      >
+                        T
+                      </span>
+                    </span>
+                  </div>
+                  <div
+                    aria-grabbed="false"
+                    class="ant-tree-treenode ant-tree-treenode-switcher-close"
+                    draggable="false"
+                  >
+                    <span
+                      aria-hidden="true"
+                      class="ant-tree-indent"
+                    >
+                      <span
+                        class="ant-tree-indent-unit ant-tree-indent-unit-start ant-tree-indent-unit-end"
+                      />
+                    </span>
+                    <span
+                      class="ant-tree-switcher ant-tree-switcher-noop"
+                    >
+                      <span
+                        class="ant-tree-switcher-leaf-line"
+                      />
+                    </span>
+                    <span
+                      class="ant-tree-node-content-wrapper ant-tree-node-content-wrapper-normal"
+                      title="Gender"
+                    >
+                      <span
+                        class="ant-tree-iconEle ant-tree-icon__customize"
+                      >
+                        <div
+                          class="icons-wrapper"
+                        >
+                          <span>
+                            3.1K
+                          </span>
+                          <button
+                            aria-checked="false"
+                            class="ant-switch ant-switch-small"
+                            role="switch"
+                            type="button"
+                          >
+                            <div
+                              class="ant-switch-handle"
+                            />
+                            <span
+                              class="ant-switch-inner"
+                            />
+                          </button>
+                        </div>
+                      </span>
+                      <span
+                        class="ant-tree-title"
+                      >
+                        Gender
+                      </span>
+                    </span>
+                  </div>
+                  <div
+                    aria-grabbed="false"
+                    class="ant-tree-treenode ant-tree-treenode-switcher-close ant-tree-treenode-leaf-last"
+                    draggable="false"
+                  >
+                    <span
+                      aria-hidden="true"
+                      class="ant-tree-indent"
+                    >
+                      <span
+                        class="ant-tree-indent-unit ant-tree-indent-unit-start ant-tree-indent-unit-end"
+                      />
+                    </span>
+                    <span
+                      class="ant-tree-switcher ant-tree-switcher-noop"
+                    >
+                      <span
+                        class="ant-tree-switcher-leaf-line"
+                      />
+                    </span>
+                    <span
+                      class="ant-tree-node-content-wrapper ant-tree-node-content-wrapper-normal"
+                      title="Age range"
+                    >
+                      <span
+                        class="ant-tree-iconEle ant-tree-icon__customize"
+                      >
+                        <div
+                          class="icons-wrapper"
+                        >
+                          <span>
+                            0
+                          </span>
+                          <button
+                            aria-checked="false"
+                            class="ant-switch ant-switch-small"
+                            role="switch"
+                            type="button"
+                          >
+                            <div
+                              class="ant-switch-handle"
+                            />
+                            <span
+                              class="ant-switch-inner"
+                            />
+                          </button>
+                        </div>
+                      </span>
+                      <span
+                        class="ant-tree-title"
+                      >
+                        Age range
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

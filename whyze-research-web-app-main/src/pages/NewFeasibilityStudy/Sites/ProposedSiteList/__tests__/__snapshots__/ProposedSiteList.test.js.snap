@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test cases for proposed site list Create the snapshots for proposed site list 1`] = `
+<div>
+  <div
+    class="proposed-site-list"
+  >
+    <span
+      class="ant-typography proposed-site-list-title"
+    >
+      Proposed Site List
+    </span>
+    <div
+      class="proposed-site-list-container"
+    >
+      <div
+        class="ant-row"
+      >
+        <div
+          class="ant-col ant-col-14"
+        >
+          <div
+            class="ant-row"
+          >
+            <div
+              class="ant-col ant-col-8"
+            >
+              <div
+                class="ant-row"
+              >
+                <div
+                  class="ant-col ant-col-10"
+                >
+                  <svg
+                    class="proposed-site-list-icon"
+                    height="23"
+                    width="18"
+                  >
+                    Vector.svg
+                  </svg>
+                </div>
+                <div
+                  class="ant-col ant-col-14 proposed-site-list-text"
+                >
+                  00
+                </div>
+              </div>
+            </div>
+            <div
+              class="ant-col ant-col-8"
+            >
+              <div
+                class="ant-row"
+              >
+                <div
+                  class="ant-col ant-col-10"
+                >
+                  <svg
+                    class="proposed-site-list-icon"
+                  >
+                    Sites.svg
+                  </svg>
+                </div>
+                <div
+                  class="ant-col ant-col-14 proposed-site-list-text"
+                >
+                  00
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          align="end"
+          class="ant-col ant-col-10 proposed-site-list-seemore-button"
+        >
+          <span
+            class="ant-typography proposed-site-list-seemore-text"
+          >
+            See more
+          </span>
+          <svg>
+            RightArrow.svg
+          </svg>
+        </div>
+      </div>
+      <div
+        class="proposed-site-list-empty-container"
+      >
+        <span
+          class="ant-typography proposed-site-list-empty-text"
+        >
+          To create your proposed list, drag & drop or add your selected sites here.
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;

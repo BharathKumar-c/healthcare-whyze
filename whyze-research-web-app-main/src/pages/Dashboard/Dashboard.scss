@@ -1,0 +1,259 @@
+@import '../../common_styles/common_variable.scss';
+
+$growth-container-text-color: #718E0B;
+$sites-icon-background-color: #FFEBEF;
+$trials-icon-background-color: #FFF7E0;
+$sites-icon-color: #E5345D;
+
+#dashboard {
+    .dashboard {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 100vh;
+        background-image: url('../../assets/EllipseTop.svg'), url('../../assets/EllipseBottom.svg');
+        background-position: left top, right bottom;
+        background-repeat: no-repeat, no-repeat;
+        background-size: 15%;
+
+        &-alignment {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-end;
+
+            &-trail {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+            }
+        }
+
+        &-container {
+            width: 80%;
+            height: 80%;
+            margin-top: 3%;
+        }
+
+        &-title {
+            @include font(700, 36px, 120%, $tertiary-text-color);
+        }
+
+        &-content {
+            margin: 10px 0 40px;
+
+            &-text {
+                @include font(400, 20px, 130%, $tertiary-text-color);
+            }
+        }
+
+        &-detail-box {
+            background: $white-color;
+            border: 2px solid rgba(45, 51, 57, 0.12);
+            border-radius: 8px;
+            padding: 12px 16px;
+            margin-right: 25px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        &-patient {
+            &-icon {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 8px;
+                width: 40px;
+                height: 40px;
+                background: $secondary-background-color;
+                border-radius: 24px;
+
+                path {
+                    fill: $primary-color;
+                }
+            }
+
+            &-text {
+                @include font(400, 20px, 130%, $tertiary-text-color);
+            }
+
+            &-total {
+                margin-right: 10px;
+                @include font(700, 24px, 130%, $tertiary-text-color);
+
+                &-text {
+                    margin-bottom: 3px;
+                    @include font(400, 12px, 16px, $secondary-text-color);
+                }
+            }
+
+            &-grow {
+                &-container {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    padding: 3px 6px;
+                    gap: 4px;
+                    background: $tertiary-background-color;
+                    border-radius: 28px;
+                    justify-content: center;
+                    margin: 10px 0;
+                    width: max-content;
+
+                    &-gray {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        padding: 3px 6px;
+                        gap: 4px;
+                        background: $porcelain-color;
+                        border-radius: 28px;
+                        justify-content: center;
+                        margin: 10px 0;
+                        width: max-content;
+
+                        &-percentage {
+                            @include font(700, 10px, 14px, $secondary-text-color);
+                        }
+                    }
+                }
+
+                &-percentage {
+                    @include font(700, 10px, 14px, $growth-container-text-color);
+                }
+
+                &-text {
+                    @include font(400, 10px, 14px, $growth-container-text-color);
+                }
+            }
+
+            &-study {
+
+                &-container {
+                    border-radius: 8px;
+                    display: flex;
+                    align-items: center;
+                    margin-top: 70px;
+                    justify-content: center;
+                    padding: 28px 0;
+                    width: 96%;
+                    background-image: url('../../assets/StudyBackground.png');
+                    background-repeat: no-repeat;
+                    background-position: right;
+                    background-size: cover;
+                }
+
+                &-text {
+                    width: 50%;
+                }
+
+                &-content {
+                    @include font(400, 16px, 140%, $secondary-text-color);
+                    margin-top: 7px;
+                }
+
+                &-btn {
+                    width: 30%;
+                }
+
+                &-button {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 10px 16px;
+                    width: 240px;
+                    height: 42px;
+                    background: $primary-color;
+                    border-radius: 100px;
+                    @include font(700, 16px, 140%, $white-color);
+                }
+            }
+
+        }
+
+        &-sites {
+            &-icon {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 8px;
+                width: 40px;
+                height: 40px;
+                background: $sites-icon-background-color;
+                border-radius: 24px;
+
+                path {
+                    fill: $sites-icon-color;
+                }
+            }
+        }
+
+
+        &-trials {
+            &-icon {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 8px;
+                width: 40px;
+                height: 40px;
+                background: $trials-icon-background-color;
+                border-radius: 24px;
+            }
+
+            &-left {
+                width: 40%;
+            }
+        }
+
+        &-vertical-divider {
+            width: 2px;
+            background: rgba(45, 51, 57, 0.08);
+            height: 130px;
+
+            &-container {
+                width: 5%;
+            }
+        }
+
+        &-projects {
+            &-list {
+                margin-top: 50px;
+
+                &-header {
+                    margin-bottom: 40px;
+                    display: flex;
+                    align-items: center;
+                    flex-direction: row;
+                    justify-content: flex-start;
+                }
+
+                &-title {
+                    margin-right: 48px;
+                    @include font(700, 24px, 130%, $tertiary-text-color);
+                    
+                }
+
+                &-see-all-text {
+                    text-decoration-line: underline;
+                    cursor: pointer;
+                    @include font(400, 16px, 140%, $black-color);
+                }
+            }
+
+            &-container {
+                display: flex;
+                flex-direction: row;
+                padding: 10px;
+
+                &-content{
+                    display: flex;
+                    flex-direction: row;
+                    width: 25%;
+                }
+            }
+        }
+
+    }
+}

@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`create tests for SelectedCountry create snapshots 1`] = `
+<div>
+  <div
+    class="site-container"
+  >
+    <div
+      class="ant-row ant-row-middle"
+      style="margin-bottom: 10px;"
+    >
+      <div
+        class="ant-col ant-col-12"
+      >
+        <div
+          class="site-container-icon"
+        />
+      </div>
+      <div
+        class="ant-col ant-col-12"
+      >
+        <span
+          class="ant-typography no-of-patients"
+        />
+      </div>
+    </div>
+    <div
+      class="ant-row ant-row-middle"
+    >
+      <div
+        class="ant-col ant-col-24"
+      >
+        <span
+          class="ant-typography patient-segment-title-small"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

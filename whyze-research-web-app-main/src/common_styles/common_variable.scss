@@ -1,0 +1,63 @@
+$primary-color: #0D5959;
+$secondary-color: #D9F042;
+$white-color: #FFFFFF;
+$white-color-grey-shaded: #FDFDFD;
+$porcelain-color: #EEF0F1;
+$red-color: red;
+$notDone-border-color: #c9cdc6;
+$black-color: #000000;
+
+// Text colors
+$primary-text-color: #2D3339;
+$secondary-text-color: rgba(45, 51, 57, 0.8);
+$tertiary-text-color: #171A1C;
+
+// Background colors
+$primary-background-color: #F7F7F8;
+$secondary-background-color: #E9FCFC;
+$tertiary-background-color: #F7FCD9;
+
+//Card Border colors
+$card-border-color: #FFD24D;
+
+//screen pixels 
+$small: 300px;
+$medium: 900px;
+$large: 1800px;
+
+// common functions
+@mixin font($fontWeight, $fontSize, $linHeight, $color) {
+    font-size: $fontSize;
+    font-weight: $fontWeight;
+    line-height: $linHeight;
+    color: $color;
+}
+
+//location border color
+$location-card-border: #E5718C;
+$wraning-color: #E5345D;
+
+//anchor tag color;
+$anchor-tag: #403f3f;
+
+//check-Icon fill
+$checked-icon-fill: #53d330;
+
+//tab-column-grid
+$tab-colum-grid-column: #B5BAC0;
+
+//condition-container
+$condition-container-border: #B5BAC0;
+
+//vertical-line 
+$vertical-line-border: #b5bac0;
+
+//inActive-card-head
+$inactive-card-border: #d3d3d3;
+
+//divider-line 
+$divider-line :#D3D6D9;
+
+//no of patient tag
+$no-patient-tag-background: #f6fefe;
+$-no-patient-tag-border: #d2f9f9;

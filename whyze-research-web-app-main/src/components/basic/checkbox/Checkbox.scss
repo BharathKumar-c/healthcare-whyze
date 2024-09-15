@@ -1,0 +1,46 @@
+@import '../../../common_styles/common_variable';
+
+.checkboxcomponent-wrapper {
+    display: flex;
+    margin: -2rem;
+
+    .input-group-active {
+        background-color: $secondary-color;
+        margin: 1rem;
+        padding: 1rem;
+        width: 46%;
+        border-radius: 3rem;
+    }
+
+    .input-group {
+        background-color: $primary-background-color;
+        margin: 1rem;
+        padding: 1rem;
+        width: 46%;
+        border-radius: 3rem;
+
+        .ant-checkbox-inner {
+            border-color: black !important;
+
+
+        }
+
+
+        .ant-checkbox-inner::after {
+            background-color: black !important;
+            color: transparent !important;
+
+        }
+
+    }
+}
+
+.ant-checkbox-checked .ant-checkbox-inner {
+    .ant-checkbox-checked .ant-checkbox-checked:after {
+        border-color: black !important;
+    }
+
+    background-color: black !important;
+    color: transparent !important;
+    border-color: black !important;
+}

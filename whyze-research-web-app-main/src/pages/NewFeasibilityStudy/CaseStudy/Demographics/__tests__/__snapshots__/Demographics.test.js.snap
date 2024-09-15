@@ -1,0 +1,210 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test cases for Demographics Create the snapshots for Demographics 1`] = `
+<div>
+  <div
+    class="demographics_container"
+  >
+    <div
+      class="ant-space ant-space-horizontal ant-space-align-center condition-container"
+      style="border: 2px solid #d3d6d9; display: flex; flex-direction: column; margin-bottom: 0.5rem; padding: 20px 30px 12px 20px;"
+    >
+      <div
+        class="ant-space-item"
+        style="margin-right: 8px;"
+      >
+        <div
+          class="ant-row"
+        >
+          <h4>
+            Sex
+          </h4>
+        </div>
+      </div>
+      <div
+        class="ant-space-item"
+        style="margin-right: 8px;"
+      >
+        <div
+          class="ant-row demographics_gender-wrapper"
+          style="margin-left: -16px; margin-right: -16px;"
+        >
+          <div
+            class="ant-col demographics_gender-wrapper_drag-icon ant-col-md-4 ant-col-lg-4 ant-col-xl-2"
+            style="padding-left: 16px; padding-right: 16px;"
+          >
+            <svg>
+              Drag.svg
+            </svg>
+          </div>
+          <div
+            class="ant-col demographics_gender-wrapper_checkbox ant-col-sm-19 ant-col-md-17 ant-col-lg-14 ant-col-xl-14"
+            style="padding-left: 16px; padding-right: 16px;"
+          >
+            <div
+              class="input-group"
+            >
+              <label
+                class="ant-checkbox-wrapper"
+              >
+                <span
+                  class="ant-checkbox"
+                >
+                  <input
+                    class="ant-checkbox-input"
+                    name="Male"
+                    type="checkbox"
+                    value=""
+                  />
+                  <span
+                    class="ant-checkbox-inner"
+                  />
+                </span>
+              </label>
+              <span
+                class="ant-typography"
+                style="margin-left: 1rem;"
+              >
+                Male
+              </span>
+            </div>
+            <div
+              class="input-group"
+            >
+              <label
+                class="ant-checkbox-wrapper"
+              >
+                <span
+                  class="ant-checkbox"
+                >
+                  <input
+                    class="ant-checkbox-input"
+                    name="Female"
+                    type="checkbox"
+                    value=""
+                  />
+                  <span
+                    class="ant-checkbox-inner"
+                  />
+                </span>
+              </label>
+              <span
+                class="ant-typography"
+                style="margin-left: 1rem;"
+              >
+                Female
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ant-space-item"
+      >
+        <div
+          class="ant-row demographics_gender-wrapper_selected-noof-patients"
+        >
+          <div
+            class="ant-col"
+          >
+            <span
+              class="ant-tag demographics_gender-wrapper_totalpatient-tag"
+            >
+              <svg>
+                Vector-2.svg
+              </svg>
+              <span>
+                 
+                0
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="ant-space ant-space-horizontal ant-space-align-center condition-container"
+      style="border: 2px solid #d3d6d9; display: flex; flex-direction: column; margin-bottom: 0.5rem; padding: 20px 30px 12px 20px;"
+    >
+      <div
+        class="ant-space-item"
+        style="margin-right: 8px;"
+      >
+        <div
+          class="ant-row demographics_agerange-wrapper"
+          style="margin-left: -16px; margin-right: -16px;"
+        >
+          <div
+            class="ant-col demographics_agerange-wrapper_drag-icon ant-col-sm-1 ant-col-md-2 ant-col-lg-1 ant-col-xl-1"
+            style="padding-left: 16px; padding-right: 16px;"
+          >
+            <svg>
+              Drag.svg
+            </svg>
+          </div>
+          <div
+            class="ant-col ant-col-sm-19 ant-col-md-17 ant-col-lg-14 ant-col-xl-14 ant-col-xxl-14"
+            style="padding-left: 16px; padding-right: 16px;"
+          >
+            <div
+              class="ant-row"
+            >
+              <div
+                class="ant-col demographics_agerange-wrapper_Input-box ant-col-sm-8 ant-col-md-10 ant-col-lg-9 ant-col-xl-6 ant-col-xxl-3"
+              >
+                <div>
+                  <input
+                    class="ant-input"
+                    name="min"
+                    placeholder=""
+                    style="border-radius: 0px; width: 100px;"
+                    type="text"
+                    value="0"
+                  />
+                </div>
+              </div>
+              <div
+                class="ant-col demographics_agerange-wrapper_Input-box1"
+              >
+                <div>
+                  <input
+                    class="ant-input"
+                    name="max"
+                    placeholder=""
+                    style="border-radius: 0px; width: 100px;"
+                    type="text"
+                    value="0"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ant-space-item"
+      >
+        <div
+          class="ant-row demographics_agerange-wrapper_selected-noof-patients"
+        >
+          <div
+            class="ant-col"
+          >
+            <span
+              class="ant-tag demographics_agerange-wrapper_totalpatient-tag"
+            >
+              <svg>
+                Vector-2.svg
+              </svg>
+              <span>
+                 
+                0
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

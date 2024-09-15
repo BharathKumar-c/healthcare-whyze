@@ -1,0 +1,228 @@
+@import '../../../../common_styles/common_variable.scss';
+
+.modal-container {
+    .modal-title-container {
+
+        div {
+            &:nth-child(1) {
+                display: flex;
+                flex-direction: row;
+                gap: 12px;
+                padding: 0rem 0rem 1rem 0rem;
+
+                h6 {
+                    margin: 0.5rem;
+                    display: flex;
+                    margin-left: 0.6rem;
+                }
+            }
+
+            &:nth-child(2) {
+                display: flex;
+                flex-direction: row;
+                gap: 12px;
+
+
+                h6 {
+
+                    display: flex;
+
+                }
+            }
+
+
+        }
+    }
+
+    .modal-children-container {
+
+        &_patient-segment-container {
+            h4 {
+                font-weight: 400;
+                font-size: 17px;
+            }
+
+            background-color: #FDFEF6;
+            border-radius: 12px;
+            padding: 1rem;
+
+            .Connectsites {
+                display: flex;
+                flex-direction: row;
+
+                svg {
+                    margin: 0 1rem 0 0;
+                }
+
+            }
+
+            .Catchmentsites {
+                display: flex;
+                flex-direction: row;
+
+                svg {
+                    margin: 0 1rem 0 0;
+                }
+            }
+
+
+        }
+
+        &_patient-segment-rating {
+            .Rating {
+                background-color: #FDFEF6;
+                border-radius: 12px;
+                padding: 0 0 0 1rem;
+                margin: 0rem 1rem 2rem 0rem;
+            }
+
+            &-start {
+
+                color: #E5345D !important;
+
+            }
+        }
+
+        &_track-recoder-container {
+            h4 {
+                font-size: 16px !important;
+            }
+
+            .rating-wrapper {
+                background-color: $tertiary-background-color;
+                width: 100%;
+                border-radius: 7px;
+                padding: 1rem;
+
+            }
+        }
+
+        &_details-container {
+            padding: 1rem;
+
+            h4 {
+                font-weight: 500;
+                font-size: 18px;
+
+                svg {
+
+                    margin-right: 1rem;
+                }
+            }
+        }
+
+        &_industry-avarage-rating {
+            .tag {
+                border-radius: 12px;
+                border: none;
+                color: #E5345D;
+                font-weight: 400;
+                margin-bottom: 1.2rem;
+
+                svg {
+                    padding-right: 5px;
+                }
+
+                span {
+                    padding-top: 0.2rem;
+                }
+            }
+        }
+
+    }
+
+
+
+    p {
+        size: 11px;
+        font-weight: 400;
+    }
+}
+
+.modal-children-container {
+
+    &_patient-segment-container {
+        h4 {
+            font-weight: 400;
+            font-size: 17px;
+        }
+
+        background-color: #FDFEF6;
+        border-radius: 12px;
+        padding: 1rem;
+
+        .Connectsites {
+            display: flex;
+            flex-direction: row;
+
+            svg {
+                margin: 0 1rem 0 0;
+            }
+
+        }
+
+        .Catchmentsites {
+            display: flex;
+            flex-direction: row;
+
+            svg {
+                margin: 0 1rem 0 0;
+            }
+        }
+
+
+    }
+
+    &_patient-segment-rating {
+        .Rating {
+            background-color: #FDFEF6;
+            border-radius: 12px;
+            padding: 0 0 0 1rem;
+            margin: 1rem !important
+        }
+
+    }
+
+    &_track-recoder-container {
+        .rating-wrapper {
+            background-color: #F7FCD9;
+            width: 100%;
+            border-radius: 7px;
+            padding: 1rem;
+
+        }
+    }
+
+    &_details-container {
+        padding: 1rem;
+
+        h4 {
+            font-weight: 500;
+            font-size: 18px;
+
+            svg {
+
+                margin-right: 1rem;
+            }
+        }
+    }
+
+    &_industry-avarage-rating {
+        .tag {
+            border-radius: 12px;
+            border: none;
+            color: #E5345D;
+            font-weight: 400;
+            margin-bottom: 1.2rem;
+
+            svg {
+                padding-right: 5px;
+            }
+
+            span {
+                padding-top: 0.2rem;
+            }
+        }
+    }
+
+}

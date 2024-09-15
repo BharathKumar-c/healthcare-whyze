@@ -1,0 +1,172 @@
+@import '../../common_styles/common_variable.scss';
+
+.rename-modal {
+    &-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    &-text {
+        flex-grow: 1;
+        @include font(700, 20px, 130%, $primary-text-color);
+    }
+
+    &-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &-container {
+            width: 75%;
+        }
+    }
+
+    &-avatar {
+        width: 98px !important;
+        height: 98px !important;
+        background: $secondary-background-color !important;
+        border: 2px solid #A6F2F2;
+        border-radius: 50% !important;
+        z-index: 0;
+        position: relative !important;
+
+        &-image {
+            width: 98px !important;
+            height: 98px !important;
+            border: 2px solid rgba(45, 51, 57, 0.12);
+            border-radius: 50% !important;
+            z-index: 0;
+            position: relative !important;
+        }
+
+        &-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 25px;
+        }
+
+        &-edit-icon {
+            background: $primary-color;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            margin: 65px 0 0 65px;
+            cursor: pointer;
+
+            path {
+                fill: $white-color;
+                fill-opacity: unset;
+            }
+        }
+    }
+
+    &-input {
+        margin-bottom: 20px;
+    }
+}
+
+.Profile-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url('../../assets/EllipseTop.svg'), url('../../assets/EllipseBottom.svg');
+    background-position: left top, right bottom;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 300px 300px;
+
+    &_content {
+        padding: 1rem;
+        margin: 3rem 0 0 1rem;
+
+        &_contact {
+            display: flex;
+
+            h3 {
+                flex-grow: 1;
+
+            }
+
+            &-Edit-icon {
+
+                gap: 12px;
+                display: flex;
+
+            }
+        }
+
+        &-Name-wrapper {
+            display: flex;
+            flex-direction: row;
+
+            &-avatar {
+                width: 60px !important;
+                height: 60px !important;
+            }
+
+            h1 {
+                margin: 0;
+                padding: 0;
+            }
+
+            p {
+                font-size: 13px;
+                font-weight: 100;
+                color: rgba(45, 51, 57, 0.8);
+                margin: 0;
+                padding: 0;
+
+            }
+
+            div {
+                &:nth-child(3) {
+                    gap: 12px;
+                    margin-left: 20rem;
+                    text-align: center;
+                    display: flex;
+                    align-items: center;
+                }
+
+                &:nth-child(2) {
+                    margin-left: 2rem;
+                }
+            }
+        }
+
+        &_authenticated-badge {
+            margin: 2rem 0rem 0rem 1rem;
+            gap: 12px;
+            display: flex;
+            align-items: center;
+
+        }
+
+        &_PhoneNumber-Wrapper {
+            display: flex;
+            flex-direction: row;
+            gap: 16px;
+            margin-bottom: 1rem;
+
+            h3 {
+                margin: 0;
+                padding: 0;
+            }
+
+            p {
+                margin: 0;
+                padding: 0;
+            }
+        }
+
+        h3 {
+            font-weight: 900;
+        }
+    }
+
+}

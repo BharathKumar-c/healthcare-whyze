@@ -1,0 +1,486 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`create snapshot for CaseStudy create snapshots 1`] = `
+<div>
+  <div>
+    <div
+      class="ant-row"
+    >
+      <div
+        class="ant-col ant-col-21"
+      >
+        <div
+          class="ant-card ant-card-bordered card-head"
+          id="card_hoc"
+        >
+          <div
+            class="ant-card-head"
+          >
+            <div
+              class="ant-card-head-wrapper"
+            >
+              <div
+                class="ant-card-head-title"
+              >
+                <div
+                  class="ant-space ant-space-horizontal ant-space-align-center"
+                >
+                  <div
+                    class="ant-space-item"
+                    style="margin-right: 20px;"
+                  >
+                    <div
+                      class="ant-space ant-space-horizontal ant-space-align-center"
+                    >
+                      <div
+                        class="ant-space-item"
+                        style="margin-right: 20px;"
+                      >
+                        <div>
+                          <svg>
+                            Indication.svg
+                          </svg>
+                        </div>
+                      </div>
+                      <div
+                        class="ant-space-item"
+                      >
+                        <div
+                          style="font-weight: 700; font-size: 24px;"
+                        >
+                          Indication
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="ant-space-item"
+                  >
+                    <span
+                      class="ant-tag titlecomponenet-tag"
+                    >
+                      Inclusion
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="ant-card-extra"
+              >
+                <div
+                  class="ant-space ant-space-horizontal ant-space-align-end"
+                >
+                  <div
+                    class="ant-space-item"
+                    style="margin-right: 20px;"
+                  >
+                    <div
+                      class="card-component__Vector-icon"
+                    />
+                  </div>
+                  <div
+                    class="ant-space-item"
+                  >
+                    <svg
+                      class="ant-dropdown-trigger"
+                      style="cursor: pointer;"
+                    >
+                      options.svg
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="ant-card-body"
+          >
+            <div
+              class="ant-space ant-space-vertical case-study-container"
+            >
+              <div
+                class="ant-space-item"
+              >
+                <div
+                  class="indication"
+                >
+                  <div
+                    class="autoComplete-wrapper"
+                  >
+                    <span
+                      class="ant-typography input-lable"
+                    >
+                      Medical condition
+                    </span>
+                    <div
+                      class="ant-select ant-select-auto-complete autoComplete-wrapper-input ant-select-single ant-select-show-search"
+                      style="width: 320px;"
+                    >
+                      <div
+                        class="ant-select-selector"
+                      >
+                        <span
+                          class="ant-select-selection-search"
+                        >
+                          <input
+                            aria-activedescendant="rc_select_TEST_OR_SSR_list_0"
+                            aria-autocomplete="list"
+                            aria-controls="rc_select_TEST_OR_SSR_list"
+                            aria-haspopup="listbox"
+                            aria-owns="rc_select_TEST_OR_SSR_list"
+                            autocomplete="off"
+                            class="ant-select-selection-search-input"
+                            id="rc_select_TEST_OR_SSR"
+                            role="combobox"
+                            type="search"
+                            value=""
+                          />
+                        </span>
+                        <span
+                          class="ant-select-selection-placeholder"
+                        >
+                          Medical condition
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    style="height: 30px;"
+                  >
+                    <div
+                      class="ant-image"
+                      style="width: 11px; height: 11px;"
+                    >
+                      <img
+                        alt="Indication-add-icon"
+                        class="ant-image-img"
+                        height="11"
+                        src="AddIcon.svg"
+                        style="height: 11px; cursor: pointer;"
+                        width="11"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="ant-row"
+    >
+      <div
+        class="ant-col ant-col-21"
+      >
+        <div
+          class="ant-card ant-card-bordered inActive-card-head"
+          id="card_hoc"
+        >
+          <div
+            class="ant-card-head"
+          >
+            <div
+              class="ant-card-head-wrapper"
+            >
+              <div
+                class="ant-card-head-title"
+              >
+                <div
+                  class="ant-space ant-space-horizontal ant-space-align-center"
+                >
+                  <div
+                    class="ant-space-item"
+                    style="margin-right: 20px;"
+                  >
+                    <div
+                      class="ant-space ant-space-horizontal ant-space-align-center"
+                    >
+                      <div
+                        class="ant-space-item"
+                        style="margin-right: 20px;"
+                      >
+                        <div>
+                          <svg>
+                            Demographics.svg
+                          </svg>
+                        </div>
+                      </div>
+                      <div
+                        class="ant-space-item"
+                      >
+                        <div
+                          style="font-weight: 700; font-size: 24px;"
+                        >
+                          Demographics
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="ant-space-item"
+                  >
+                    <span
+                      class="ant-tag titlecomponenet-tag"
+                    >
+                      Inclusion
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="ant-card-extra"
+              >
+                <div
+                  class="ant-space ant-space-horizontal ant-space-align-end"
+                >
+                  <div
+                    class="ant-space-item"
+                    style="margin-right: 20px;"
+                  >
+                    <div
+                      class="card-component__Vector-icon"
+                    />
+                  </div>
+                  <div
+                    class="ant-space-item"
+                  >
+                    <svg
+                      class="ant-dropdown-trigger"
+                      style="cursor: pointer;"
+                    >
+                      options.svg
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="ant-card-body"
+          >
+            <div
+              class="ant-space ant-space-vertical case-study-container"
+            >
+              <div
+                class="ant-space-item"
+              >
+                <div
+                  class="demographics_container"
+                >
+                  <div
+                    class="ant-space ant-space-horizontal ant-space-align-center condition-container"
+                    style="border: 2px solid #d3d6d9; display: flex; flex-direction: column; margin-bottom: 0.5rem; padding: 20px 30px 12px 20px;"
+                  >
+                    <div
+                      class="ant-space-item"
+                      style="margin-right: 8px;"
+                    >
+                      <div
+                        class="ant-row"
+                      >
+                        <h4>
+                          Sex
+                        </h4>
+                      </div>
+                    </div>
+                    <div
+                      class="ant-space-item"
+                      style="margin-right: 8px;"
+                    >
+                      <div
+                        class="ant-row demographics_gender-wrapper"
+                        style="margin-left: -16px; margin-right: -16px;"
+                      >
+                        <div
+                          class="ant-col demographics_gender-wrapper_drag-icon ant-col-md-4 ant-col-lg-4 ant-col-xl-2"
+                          style="padding-left: 16px; padding-right: 16px;"
+                        >
+                          <svg>
+                            Drag.svg
+                          </svg>
+                        </div>
+                        <div
+                          class="ant-col demographics_gender-wrapper_checkbox ant-col-sm-19 ant-col-md-17 ant-col-lg-14 ant-col-xl-14"
+                          style="padding-left: 16px; padding-right: 16px;"
+                        >
+                          <div
+                            class="input-group"
+                          >
+                            <label
+                              class="ant-checkbox-wrapper"
+                            >
+                              <span
+                                class="ant-checkbox"
+                              >
+                                <input
+                                  class="ant-checkbox-input"
+                                  name="Male"
+                                  type="checkbox"
+                                  value=""
+                                />
+                                <span
+                                  class="ant-checkbox-inner"
+                                />
+                              </span>
+                            </label>
+                            <span
+                              class="ant-typography"
+                              style="margin-left: 1rem;"
+                            >
+                              Male
+                            </span>
+                          </div>
+                          <div
+                            class="input-group"
+                          >
+                            <label
+                              class="ant-checkbox-wrapper"
+                            >
+                              <span
+                                class="ant-checkbox"
+                              >
+                                <input
+                                  class="ant-checkbox-input"
+                                  name="Female"
+                                  type="checkbox"
+                                  value=""
+                                />
+                                <span
+                                  class="ant-checkbox-inner"
+                                />
+                              </span>
+                            </label>
+                            <span
+                              class="ant-typography"
+                              style="margin-left: 1rem;"
+                            >
+                              Female
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="ant-space-item"
+                    >
+                      <div
+                        class="ant-row demographics_gender-wrapper_selected-noof-patients"
+                      >
+                        <div
+                          class="ant-col"
+                        >
+                          <span
+                            class="ant-tag demographics_gender-wrapper_totalpatient-tag"
+                          >
+                            <svg>
+                              Vector-2.svg
+                            </svg>
+                            <span>
+                               
+                              0
+                            </span>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="ant-space ant-space-horizontal ant-space-align-center condition-container"
+                    style="border: 2px solid #d3d6d9; display: flex; flex-direction: column; margin-bottom: 0.5rem; padding: 20px 30px 12px 20px;"
+                  >
+                    <div
+                      class="ant-space-item"
+                      style="margin-right: 8px;"
+                    >
+                      <div
+                        class="ant-row demographics_agerange-wrapper"
+                        style="margin-left: -16px; margin-right: -16px;"
+                      >
+                        <div
+                          class="ant-col demographics_agerange-wrapper_drag-icon ant-col-sm-1 ant-col-md-2 ant-col-lg-1 ant-col-xl-1"
+                          style="padding-left: 16px; padding-right: 16px;"
+                        >
+                          <svg>
+                            Drag.svg
+                          </svg>
+                        </div>
+                        <div
+                          class="ant-col ant-col-sm-19 ant-col-md-17 ant-col-lg-14 ant-col-xl-14 ant-col-xxl-14"
+                          style="padding-left: 16px; padding-right: 16px;"
+                        >
+                          <div
+                            class="ant-row"
+                          >
+                            <div
+                              class="ant-col demographics_agerange-wrapper_Input-box ant-col-sm-8 ant-col-md-10 ant-col-lg-9 ant-col-xl-6 ant-col-xxl-3"
+                            >
+                              <div>
+                                <span
+                                  class="ant-typography input-lable"
+                                >
+                                  Age range
+                                </span>
+                                <input
+                                  class="ant-input"
+                                  name="min"
+                                  placeholder=""
+                                  style="border-radius: 0px; width: 100px;"
+                                  type="number"
+                                  value="0"
+                                />
+                              </div>
+                            </div>
+                            <div
+                              class="ant-col demographics_agerange-wrapper_Input-box1"
+                            >
+                              <div>
+                                <input
+                                  class="ant-input"
+                                  name="max"
+                                  placeholder=""
+                                  style="border-radius: 0px; width: 100px;"
+                                  type="number"
+                                  value="0"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="ant-space-item"
+                    >
+                      <div
+                        class="ant-row demographics_agerange-wrapper_selected-noof-patients"
+                      >
+                        <div
+                          class="ant-col"
+                        >
+                          <span
+                            class="ant-tag demographics_agerange-wrapper_totalpatient-tag"
+                          >
+                            <svg>
+                              Vector-2.svg
+                            </svg>
+                            <span>
+                               
+                              0
+                            </span>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

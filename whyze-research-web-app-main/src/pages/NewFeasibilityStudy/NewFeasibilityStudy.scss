@@ -1,0 +1,596 @@
+@import '../../common_styles/common_variable';
+
+#feasibility_study {
+
+  .feasibility-study-container {
+    display: flex;
+    width: 100%;
+    background-image: url('../../assets/EllipseTop.svg'), url('../../assets/EllipseBottom.svg');
+    background-position: left top, right bottom;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 100px 100px;
+
+    &-box {
+      display: flex;
+      width: 100%;
+      height: 100vh;
+      overflow-y: scroll;
+
+      &::-webkit-scrollbar {
+        display: none;
+      }
+
+    }
+
+  }
+
+  .segment {
+    background: linear-gradient(180deg, rgba(107, 114, 128, 0.08) 0%, rgba(107, 114, 128, 0.02) 100%);
+    padding: 16px 0 16px 96px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow-x: scroll;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    &-layout {
+      display: flex;
+      align-items: center;
+    }
+
+    &-container {
+      background: $notDone-border-color;
+      border-radius: 8px;
+      padding: 7.5px 15px;
+      margin: 0 20px 0 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 280px;
+
+      &-active {
+        background: $white-color;
+        border-left: 8px solid $secondary-color;
+        border-radius: 8px;
+        padding: 7.5px 20px;
+        margin: 0 20px 0 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 295px;
+      }
+
+      &-active-notDone {
+        background: $porcelain-color;
+        border-radius: 8px;
+        padding: 7.5px 20px;
+        margin: 0 20px 0 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 295px;
+      }
+    }
+
+    &-icon {
+      padding-right: 0.5rem;
+      display: flex;
+      align-items: center;
+    }
+
+    &-title {
+      display: flex;
+      align-items: center;
+      margin: 0 10px 0 20px;
+      @include font(700, 18px, 140%, $secondary-text-color);
+    }
+
+    &-rename {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      margin-right: 2.5%;
+      gap: 7.5%;
+
+      &-tick-icon {
+        cursor: pointer;
+      }
+    }
+
+    &-no-of-patients {
+      display: flex;
+      align-items: center;
+      margin: 0 30px 0 10px;
+      width: auto;
+      @include font(400, 16px, 140%, rgba(45, 51, 57, 0.45));
+    }
+
+    &-vector-icon {
+      path {
+        fill: rgba(45, 51, 57, 0.45);
+      }
+    }
+
+    &-add-icon {
+      cursor: pointer;
+      margin: 10px 0 0;
+    }
+  }
+
+  .tab-column-grid {
+    display: flex;
+    cursor: pointer;
+
+    &-column {
+      &-left {
+        border-right: 0.1px solid $tab-colum-grid-column;
+        width: 40px;
+      }
+
+      &-right {
+        border-left: 0.1px solid $tab-colum-grid-column;
+        width: 40px;
+      }
+    }
+
+    &-title {
+      transform: rotate(90deg);
+      margin-top: 2rem;
+      font-weight: 700;
+      font-size: 15px;
+      white-space: nowrap;
+    }
+  }
+
+
+  .card-head {
+    margin: 40px 50px 0;
+  }
+
+  .inActive-card-head {
+    margin: 40px 50px 0;
+    border: 1px solid $inactive-card-border !important;
+  }
+
+  #main_textbox {
+    width: 320px;
+
+    .nicotine-search-box {
+      .ant-select-arrow {
+        visibility: hidden;
+      }
+    }
+  }
+
+  .alertmessagemodel {
+    display: none !important;
+  }
+
+  .patient-segment-container {
+    height: 50%;
+    margin: 40px 0 0 -25px;
+  }
+
+  .history-of-changes-container {
+    height: 50%;
+    margin: 4.5rem 0 0 0;
+  }
+
+  .case-study-container {
+    margin-bottom: 10px;
+    gap: 0 !important;
+    width: 100%;
+  }
+
+  .indication,
+  .medication,
+  .surgery {
+
+    &-add-button {
+      @include font(700, 16px, 140%, $white-color);
+      background: $primary-color;
+      border: 1px solid $primary-color;
+      border-radius: 100px;
+      padding: 10px 15px;
+      font-style: normal;
+      cursor: pointer;
+      margin-left: 15px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .solid-divider-line {
+      border-left: 2px solid $divider-line;
+      height: 32px;
+    }
+
+    .dashed-divider-line {
+      border-left: 2px dashed $divider-line;
+      height: 32px;
+    }
+
+    .container-alignment {
+      width: 100%;
+      flex-direction: row;
+      display: flex;
+      align-items: center;
+    }
+
+    .condition-container {
+      &-before-select {
+        border-bottom: 1px dashed $condition-container-border;
+        width: 4%;
+        margin-right: 1%;
+      }
+
+      &-after-select {
+        border-bottom: 1px dashed $condition-container-border;
+        width: 4%;
+        margin: 0 1%;
+      }
+
+      &-input {
+        margin-bottom: 10px;
+        width: 18%;
+        margin-right: 2%;
+      }
+
+      &-select {
+        margin-bottom: 10px;
+        width: 25%;
+        margin-right: 2%;
+      }
+
+      &-custom-select {
+        margin-top: 2px;
+      }
+
+      &-dosage-input {
+        width: 12%;
+        margin-right: 1%;
+        margin-bottom: 20px;
+        display: flex;
+      }
+
+      &-started {
+        &-sub-text {
+          @include font(400, 16px, 140%, $primary-text-color !important);
+          margin-right: 20px;
+        }
+
+        &-input {
+          width: 12%;
+          margin-right: 1%;
+          margin-bottom: 1rem;
+          display: flex;
+        }
+      }
+
+      &-select-unit {
+        width: 14%;
+        margin-right: 1rem;
+        margin-bottom: 1.2rem;
+
+        div {
+          span {
+            margin: 0 !important;
+          }
+        }
+      }
+
+      &-surgery {
+
+        &-sub-text {
+          @include font(400, 16px, 140%, $primary-text-color !important);
+          margin-right: 20px;
+        }
+
+        &-input {
+          width: 12%;
+          margin-right: 1%;
+          margin-bottom: 20px;
+          display: flex;
+        }
+
+        &-select {
+          width: 13%;
+          margin-right: 1%;
+          margin-bottom: 25px;
+        }
+
+      }
+
+      &-dosage-select {
+        margin-bottom: 10px;
+        width: 25%;
+        margin-right: 2%;
+        padding: 0 0 12px;
+      }
+
+    }
+
+    .container {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      background: $white-color-grey-shaded;
+      border-radius: 12px;
+      margin-bottom: 0.5rem;
+
+      .drag-drop-image {
+        width: 3%;
+      }
+
+      .add-image {
+        width: 2%;
+
+        .image {
+          margin: 5px 0;
+          cursor: pointer;
+        }
+      }
+
+      .close-icon {
+        width: 4%;
+
+        .image {
+          margin-left: 15px;
+          cursor: pointer;
+        }
+      }
+    }
+
+    .vertical-line {
+      border-bottom: 1px solid $vertical-line-border;
+      border-right: 1px solid $vertical-line-border;
+      height: 12px;
+      transform: rotate(90deg);
+      position: relative;
+
+      bottom: 9px;
+      width: 100px;
+      right: 17px;
+
+      &-condition {
+        border-bottom: 1px solid $vertical-line-border;
+        border-right: 1px solid $vertical-line-border;
+        height: 12px;
+        transform: rotate(90deg);
+        position: relative;
+
+        bottom: 14px;
+        width: 88px;
+        right: 11px;
+      }
+    }
+  }
+
+  .bmi_container {
+    display: flex;
+    flex-direction: column;
+
+    .bmi-wrapper {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      &-title {
+        font-size: 16px;
+        font-weight: 700;
+      }
+
+      &_drag-icon {
+        margin-left: -1rem;
+      }
+    }
+
+    .condition-container {
+      &-before-select {
+        border-bottom: 1px dashed $condition-container-border;
+        width: 4%;
+        margin-right: 1%;
+      }
+
+      &-after-select {
+        border-bottom: 1px dashed $condition-container-border;
+        width: 4%;
+        margin: 0 1%;
+      }
+
+      &-select {
+        margin-bottom: 10px;
+        width: 15rem;
+      }
+
+      &-custom-select {
+        margin-top: 2px;
+      }
+
+      &-dosage-input {
+        width: 12%;
+        margin-right: 1%;
+        margin-bottom: 5px;
+        display: flex;
+      }
+
+      &-started {
+        &-sub-text {
+          @include font(400, 16px, 140%, $primary-text-color !important);
+          margin-right: 20px;
+        }
+
+        &-input {
+          width: 12%;
+          margin-right: 1%;
+          margin-bottom: 5px;
+          display: flex;
+        }
+      }
+
+      &-select-unit {
+        width: 13%;
+        margin-right: 1%;
+        margin-bottom: 10px;
+      }
+
+      &-surgery {
+
+        &-sub-text {
+          @include font(400, 16px, 140%, $primary-text-color !important);
+          margin-right: 20px;
+        }
+
+        &-input {
+          width: 12%;
+          margin-right: 1%;
+          margin-bottom: 20px;
+          display: flex;
+        }
+
+        &-select {
+          width: 13%;
+          margin-right: 1%;
+          margin-bottom: 25px;
+        }
+      }
+    }
+
+  }
+
+  .quit-container-alignment,
+  .started-container-alignment {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+
+    .drag-drop-image {
+      display: flex !important;
+      align-items: center !important;
+    }
+
+    .condition-container-input {
+      width: 30% !important;
+    }
+
+    .close-icon {
+      display: flex !important;
+      align-items: center !important;
+    }
+  }
+
+
+  .input-group-active {
+    background-color: $secondary-color;
+    margin: 0 12px 0 0;
+    padding: 0.7rem;
+    width: 46%;
+    border-radius: 3rem;
+    font-weight: 400;
+  }
+
+  .input-group {
+    background-color: $primary-background-color;
+    margin: 0 12px 0 0;
+    padding: 0.7rem;
+    width: 46%;
+    border-radius: 3rem;
+    font-weight: 400;
+
+    .ant-checkbox-inner {
+      border-color: $tertiary-text-color !important;
+    }
+
+    .ant-checkbox-inner::after {
+      background-color: $tertiary-text-color !important;
+      color: transparent !important;
+
+    }
+  }
+
+  .addcritia-btn-grp {
+    text-align: center;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: row;
+    margin: 2.5rem 0 1rem 3rem;
+    padding-bottom: 2.5rem;
+
+    button {
+      margin-right: 2rem;
+      border-radius: 1.5rem;
+      font-size: 15px;
+      font-weight: 500;
+      text-transform: capitalize;
+      padding: 0rem 2rem 0rem 2rem;
+
+      svg {
+        margin: 0 1rem 0 0;
+      }
+
+      &:nth-child(1) {
+        background: $primary-color;
+        color: $white-color;
+        border: none;
+
+      }
+
+      &:nth-child(2) {
+        border: 1px solid $primary-color;
+        color: $primary-color;
+
+        svg path {
+          fill: $primary-color !important;
+        }
+      }
+    }
+  }
+}
+
+.indication-text {
+  @include font(400, 16px, 140%, $primary-text-color !important);
+  width: 16%;
+  margin-right: 10px;
+
+  &-label {
+    @include font(400, 16px, 140%, $primary-text-color !important);
+    width: 5%;
+  }
+}
+
+.indication-no-patient-tag-row {
+  justify-content: flex-end;
+  margin-left: 4px;
+}
+
+.indication-no-patient-tag {
+  display: flex !important;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 10px !important;
+  background: $no-patient-tag-background !important;
+  border: 1px solid $-no-patient-tag-border !important;
+  border-radius: 16px !important;
+  @include font(700, 12px !important, 140%, $secondary-text-color !important);
+
+  svg {
+    width: 12px;
+    height: 15px;
+    margin-right: 5px;
+  }
+}
+
+.footer-component {
+  margin-top: 10rem !important;
+  background-color: $red-color;
+}
+
+.segment-container {
+  background-color: $red-color;
+}

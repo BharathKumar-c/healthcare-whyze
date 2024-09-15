@@ -1,0 +1,117 @@
+@import '../../../../common_styles/common_variable.scss';
+
+.proposed-site-list {
+
+    &-title {
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+        @include font(700, 20px, 130%, $primary-text-color);
+    }
+
+    &-container {
+        background: #FDFDFD;
+        border-radius: 12px;
+        padding: 16px;
+    }
+
+    &-icon {
+        path {
+            fill: $secondary-text-color;
+
+        }
+
+        padding: 0 0.2rem 0 0
+    }
+
+    &-text {
+        @include font(400, 16px, 140%, $secondary-text-color);
+
+        &-active {
+            @include font(400, 16px, 140%, $primary-text-color);
+        }
+    }
+
+    &-seemore {
+        &-button {
+            display: flex !important;
+            align-items: center;
+            justify-content: flex-end;
+
+            path {
+                fill: rgba(45, 51, 57, 0.45);
+            }
+
+            &-active {
+                display: flex !important;
+                align-items: center;
+                justify-content: flex-end;
+                cursor: pointer;
+
+                path {
+                    fill: $primary-color;
+                }
+            }
+        }
+
+        &-text {
+            @include font(700, 12px, 16px, rgba(45, 51, 57, 0.45) !important);
+
+            &-active {
+                @include font(700, 12px, 16px, $primary-color !important);
+            }
+        }
+    }
+
+    &-empty {
+        &-container {
+            height: 200px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            background-image: url('../../../../assets/EmptyContentBackground.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+        }
+
+        &-text {
+            @include font(400, 16px, 140%, $primary-text-color);
+        }
+    }
+
+    &-sites {
+        &-container {
+            margin-bottom: 8px;
+
+            &:first-child {
+                margin-top: 20px;
+            }
+        }
+
+        &-content {
+            padding: 8px 11px;
+            background: #FDFDFD;
+            border: 1px solid $porcelain-color;
+            border-radius: 8px;
+        }
+    }
+
+    &-site-name {
+        @include font(400, 16px, 140%, $primary-text-color);
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+
+    &-close-icon {
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+
+        path {
+            fill: $primary-color;
+            cursor: pointer;
+        }
+    }
+}

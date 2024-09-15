@@ -1,0 +1,262 @@
+@import '../../../common_styles/common_variable.scss';
+
+
+
+.inActive-card-head {
+  position: relative;
+  max-width: max-content;
+  min-width: 95%;
+  height: auto;
+  border-radius: 0.5rem !important;
+  margin: auto;
+  border: 2px solid #FDFDFD;
+  margin-right: 50%;
+  display: flex;
+  flex-direction: column;
+
+  .ant-card-bordered {
+    border: 2px solid #FDFDFD !important;
+  }
+
+  @media screen and (max-width: $small) {
+    width: 100%;
+  }
+
+  @media screen and (max-width: $large) {
+    width: 100%;
+  }
+
+
+
+  .ant-card-head {
+    background-color: #eef0f1;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    font-weight: 700;
+  }
+
+
+}
+
+
+.card-head {
+
+  max-width: max-content;
+  min-width: 95%;
+  height: auto;
+  border-radius: 0.5rem !important;
+  border-left: 8px solid var(--card-border-color) !important;
+  margin: auto;
+  margin-right: 50%;
+  display: flex;
+
+  flex-direction: column;
+
+  .ant-card-bordered {
+    border: none !important;
+  }
+
+  .ant-card-body {
+    border-bottom: 2px solid #d3d6d9;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-image: url("../../../assets/Triangle.svg");
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-position-x: right;
+  }
+
+  @media screen and (max-width: $small) {
+    width: 100%;
+  }
+
+  @media screen and (max-width: $large) {
+    width: 100%;
+  }
+
+  .card-head-Focus {
+    position: relative;
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem !important;
+    margin: auto;
+    margin-right: 50%;
+  }
+
+  .ant-card-head {
+    background-color: #eef0f1;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    font-weight: 700;
+  }
+}
+.location-Card {
+
+  max-width: max-content;
+  min-width: 95%;
+  height: auto;
+  border-radius: 0.5rem !important;
+  border-left: 8px solid $location-card-border !important;
+  margin: auto;
+  margin-right: 50%;
+  margin-left: 50%;
+  display: flex;
+  margin-left: 40px !important;
+
+  flex-direction: column;
+
+  .ant-card-bordered {
+    border: none !important;
+  }
+
+  .ant-card-body {
+    border-bottom: 2px solid #d3d6d9;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-image: url("../../../assets/Triangle.svg");
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-position-x: right;
+  }
+
+  @media screen and (max-width: $small) {
+    width: 100%;
+  }
+
+  @media screen and (max-width: $large) {
+    width: 100%;
+  }
+
+  .card-head-Focus {
+    position: relative;
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem !important;
+    margin: auto;
+    margin-right: 50%;
+  }
+
+  .ant-card-head {
+    background-color: #eef0f1;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    font-weight: 700;
+  }
+}
+
+.card-component {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-top: 1rem;
+
+  &__Vector-icon {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+  &:nth-child(2) {
+    padding-top: 2rem;
+  }
+}
+
+.titlecomponenet-tag {
+  padding: 0.3rem !important;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+  border-radius: 1rem !important;
+  background-color: $secondary-background-color !important;
+  color: black !important;
+  font-size: 10px !important;
+  text-transform: capitalize;
+  border: 1px solid #a6f2f2 !important;
+  font-weight: 700;
+
+  &__Exclusion {
+    padding: 0.3rem !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    border-radius: 1rem !important;
+    background-color: #ffebef !important;
+    color: black !important;
+    font-size: 10px !important;
+    text-transform: capitalize;
+    border: 1px solid #ef9aae !important;
+    font-weight: 700;
+  }
+}
+
+.card-head-sites {
+
+  max-width: max-content;
+  min-width: 95%;
+  height: auto;
+  border-radius: 0.5rem !important;
+  margin-left: 40px !important;
+  display: flex;
+  flex-direction: column;
+
+  @media screen and (max-width: $small) {
+    width: 100%;
+  }
+
+  @media screen and (max-width: $large) {
+    width: 100%;
+  }
+
+  .ant-card-head {
+    background: linear-gradient(180deg, rgba(50, 202, 226, 0.1) 0%, rgba(50, 202, 226, 0.02) 100%);
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    font-weight: 700;
+  }
+}
+
+.card-head-preferred-list {
+
+  max-width: max-content;
+  min-width: 95%;
+  height: auto;
+  border-radius: 0.5rem !important;
+  margin-left: 40px !important;
+  display: flex;
+  flex-direction: column;
+
+  @media screen and (max-width: $small) {
+    width: 100%;
+  }
+
+  @media screen and (max-width: $large) {
+    width: 100%;
+  }
+
+  .ant-card-head {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(180deg, rgba(50, 202, 226, 0.1) 0%, rgba(50, 202, 226, 0.02) 100%);
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    font-weight: 700;
+    
+  }
+  .ant-tabs-tab{
+    margin-left: 2rem;
+  }
+  .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: #000000 !important; 
+    font-weight: 500;
+  }
+  
+  .ant-tabs-ink-bar {
+    position: absolute;
+    background: #000000 !important;
+    pointer-events: none;
+  }
+  .ant-tabs-nav-more{
+    visibility: hidden;
+    display: none;
+  }
+}

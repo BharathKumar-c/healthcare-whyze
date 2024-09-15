@@ -1,0 +1,12 @@
+@import '../../../common_styles//common_variable.scss';
+
+.text-area {
+    &-lable {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 140%;
+        color: $primary-text-color !important;
+        margin-bottom: 5px;
+    }
+}

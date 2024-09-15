@@ -1,0 +1,56 @@
+.weight-container {
+
+   .weight-wrapper {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+
+      &_dragicon {
+         margin-top: 1.5rem;
+         margin-right: 1rem;
+      }
+
+      &_min-inputbox {
+         width: 130px;
+
+         div {
+            span {
+               display: flex;
+            }
+         }
+      }
+
+      &_max-inputbox {
+         width: 150px;
+         margin-top: 1.7rem !important;
+
+         div {
+            span {
+               display: flex;
+            }
+         }
+      }
+
+      &_weight-unit-select {
+         width: 150px;
+         margin-top: 1.7rem;
+      }
+
+      @media screen and (max-width: 816px) {
+         &_min-inputbox {
+            width: 180px;
+         }
+
+         &_max-inputbox {
+            width: 180px;
+            margin-top: 1.7rem !important;
+         }
+
+         &_weight-unit-select {
+            width: 150px;
+            margin-top: 1.7rem;
+         }
+      }
+   }
+
+}

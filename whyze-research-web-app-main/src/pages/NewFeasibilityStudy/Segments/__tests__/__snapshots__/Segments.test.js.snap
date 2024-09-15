@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`write testcases for segments create snapshots for segments 1`] = `
+<div>
+  <div
+    class="segment-layout"
+  >
+    <div
+      class="segment-container-active-notDone"
+    >
+      <div
+        class="segment-icon"
+      >
+        <svg>
+          Pencil.svg
+        </svg>
+      </div>
+      <span
+        class="ant-typography segment-title"
+      >
+        Segment-1
+      </span>
+      <svg
+        class="segment-vector-icon"
+        height="23"
+        width="18"
+      >
+        Vector.svg
+      </svg>
+      <span
+        class="ant-typography segment-no-of-patients"
+      >
+        10K
+      </span>
+      <svg
+        class="ant-dropdown-trigger segments-dropdown-options"
+        style="cursor: pointer;"
+      >
+        options.svg
+      </svg>
+    </div>
+  </div>
+  <div
+    class="segments-add-icon-container"
+  >
+    <svg
+      class="segment-add-icon"
+      height="16"
+      width="16"
+    >
+      SegementAddIcon.svg
+    </svg>
+  </div>
+</div>
+`;

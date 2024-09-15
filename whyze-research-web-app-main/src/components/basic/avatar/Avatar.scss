@@ -1,0 +1,13 @@
+@import '../../../common_styles/common_variable';
+
+.ant-avatar {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px !important;
+    line-height: 140% !important;
+    display: flex !important;
+    align-items: center;
+    color: $primary-color !important;
+    cursor: pointer;
+}

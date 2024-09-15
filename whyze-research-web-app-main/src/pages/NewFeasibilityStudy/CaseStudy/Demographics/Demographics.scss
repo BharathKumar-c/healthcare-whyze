@@ -1,0 +1,121 @@
+@import '../../../../common_styles/common_variable.scss';
+
+.demographics_container {
+
+   display: flex;
+   flex-direction: column;
+   gap: 2rem;
+
+   .demographics_gender-wrapper {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      &_drag-icon {
+         margin-left: -1rem;
+      }
+
+      &_checkbox {
+         display: flex !important;
+         flex-direction: row !important;
+         margin-left: -2.25rem;
+      }
+
+      &_gender-remove-btn {
+         cursor: pointer;
+         align-items: flex-end;
+         display: flex;
+         justify-content: center;
+         margin-left: -2rem;
+      }
+
+      &_selected-noof-patients {
+         float: right !important;
+         margin-bottom: -0.5rem;
+      }
+
+      &_totalpatient-tag {
+         display: flex !important;
+         flex-direction: row;
+         justify-content: flex-end;
+         align-items: center;
+         padding: 4px 8px !important;
+         max-width: max-content;
+         background: #f6fefe !important;
+         border: 1px solid #d2f9f9 !important;
+         border-radius: 16px !important;
+         font-style: normal;
+         font-weight: 700;
+         font-size: 12px !important;
+         line-height: 16px !important;
+         color: $secondary-text-color !important;
+      }
+   }
+
+   .demographics_agerange-wrapper {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      &_drag-icon {
+         margin-left: -1rem;
+         margin-top: 1.5rem;
+      }
+
+      &_Input-box1 {
+         margin-top: 1.4rem;
+      }
+
+      @media screen and (min-width: 1600px) {
+
+         &_Input-box {
+            max-width: none;
+            padding-right: 1.3rem;
+         }
+      }
+
+      @media screen and (min-width: 756px) {
+
+         &_Input-box {
+            max-width: none;
+            padding-right: 1.3rem;
+         }
+      }
+
+      &_ageRange-remove-btn {
+         cursor: pointer;
+         align-items: flex-end;
+         display: flex;
+         justify-content: center;
+         margin-top: 1rem;
+      }
+
+      &_selected-noof-patients {
+         float: right !important;
+         margin-bottom: -0.5rem;
+      }
+
+      &_totalpatient-tag {
+         display: flex !important;
+         flex-direction: row;
+         justify-content: flex-end;
+         align-items: center;
+         padding: 4px 8px !important;
+         max-width: max-content;
+         background: #f6fefe !important;
+         border: 1px solid #d2f9f9 !important;
+         border-radius: 16px !important;
+         font-style: normal;
+         font-weight: 700;
+         font-size: 12px !important;
+         line-height: 16px !important;
+         color: $secondary-text-color !important;
+      }
+   }
+
+   h4 {
+      margin: 0rem 0rem 0rem 2rem;
+      font-size: 15px;
+      font-weight: 900;
+   }
+}

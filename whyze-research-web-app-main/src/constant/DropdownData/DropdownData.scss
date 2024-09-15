@@ -1,0 +1,40 @@
+@import '../../common_styles/common_variable';
+
+.segment-dropdown-label {
+    display: flex;
+    justify-content: flex-start;
+    color: $primary-color !important;
+    width: 153px;
+    gap: 5%;
+    align-items: center;
+
+    path {
+        fill: #0D5959;
+    }
+
+    &-justify-right {
+        color: $primary-color !important;
+        display: flex;
+        justify-content: space-between;
+        width: 153px;
+        gap: 5%;
+        align-items: center;
+
+        &:hover {
+            color: #2D3339 !important;
+
+            path {
+                fill: #2D3339;
+            }
+        }
+    }
+
+    &:hover {
+        color: #2D3339 !important;
+
+        path {
+            fill: #2D3339;
+        }
+    }
+
+}

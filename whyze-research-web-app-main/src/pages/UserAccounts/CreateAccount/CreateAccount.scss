@@ -1,0 +1,138 @@
+@import '../../../common_styles/common_variable.scss';
+
+.create-account-container {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url('../../../assets/EllipseTop.svg'), url('../../../assets/EllipseBottom.svg');
+    background-position: left top, right bottom;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 300px 300px;
+
+
+    &_content {
+        display: grid;
+        margin: auto 36%;
+        grid-gap: 16px;
+    }
+
+    &_header {
+        text-align: center;
+
+        h1 {
+            text-align: center;
+            font-weight: 700;
+            font-size: 34px;
+        }
+    }
+
+    .Phonenumber_header {
+        margin-top: 1rem;
+        margin-bottom: 0;
+
+        &_label{
+            margin: 0;
+        }
+
+        h3 {
+            display: flex;
+            flex-direction: row;
+            font-size: 16px;
+
+            font-weight: 800;
+
+            p {
+                margin: 0;
+                padding: 0;
+                font-weight: 300;
+            }
+        }
+    }
+
+    .phonenumber-panel {
+        display: flex;
+        flex-direction: row;
+        gap: 12px;
+        margin-bottom: 1rem;
+
+        .alignment {
+            width: 7rem;
+        }
+        &_select{
+            background-color: red;
+        }
+    }
+
+    &_Rules {
+
+        .rules_elemets {
+            p {
+                margin: 0;
+                padding: 0;
+
+            }
+
+            padding: 0.5rem 0rem 0rem 0rem;
+            display: flex;
+            flex-direction: row;
+            gap: 12px;
+
+            .checked_icon {
+
+                path {
+                    fill: $checked-icon-fill !important;
+                }
+            }
+        }
+    }
+
+    .create_account_btn {
+        color: $white-color;
+        background-color: $primary-color;
+        border-radius: 1rem;
+        justify-content: center !important;
+        align-items: center !important;
+        display: flex;
+
+        &:hover {
+            color: $white-color;
+            background-color: $primary-color;
+            border-radius: 1rem;
+            justify-content: center !important;
+            align-items: center !important;
+            display: flex;
+        }
+    }
+
+    &_Terms {
+        p {
+            color: $anchor-tag;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 12px;
+            padding-bottom: 2rem;
+
+            a {
+                text-decoration: underline;
+                color: $anchor-tag;
+            }
+        }
+
+        h3 {
+            font-weight: 400;
+            font-size: 16px;
+            text-align: center;
+
+            a {
+                text-decoration: underline;
+                color: $anchor-tag;
+            }
+        }
+    }
+}
+
+#create-account-container-email{
+    margin-top: 1rem;
+}

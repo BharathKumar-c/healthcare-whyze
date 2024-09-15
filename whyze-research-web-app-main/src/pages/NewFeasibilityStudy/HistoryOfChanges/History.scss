@@ -1,0 +1,56 @@
+.HistoryOfChanges-wrapper {
+
+    h3 {
+        font-weight: 700;
+        font-style: normal;
+
+
+        font-size: 20px;
+
+    }
+
+    &_Total-population {
+        display: flex;
+        flex-direction: row;
+
+        p {
+            padding-left: 1rem;
+
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 140%;
+        }
+    }
+
+    &_Initial-population {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        padding: 0;
+        align-items: center;
+        margin-bottom: 1rem;
+
+        p {
+
+            &:nth-child(1) {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                text-transform: capitalize;
+                margin: 0;
+            }
+
+            &:nth-child(2) {
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 5px;
+                text-transform: capitalize;
+                margin: 0;
+                margin-left: 1rem;
+            }
+        }
+
+
+
+    }
+}

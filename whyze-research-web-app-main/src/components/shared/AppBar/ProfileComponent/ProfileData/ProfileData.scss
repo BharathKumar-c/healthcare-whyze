@@ -1,0 +1,29 @@
+@import '../../../../../common_styles/common_variable.scss';
+.icon-wrapper {
+
+    span {
+        height: 50px !important;
+        width: 50px !important;
+    }
+}
+
+.profile_name_wrapper {
+    margin: 0 3rem 0 0;
+    padding: 0;
+
+    h5 {
+        margin: 0;
+        padding: 0;
+        font-weight: 700;
+        font-size: 16px;
+    }
+
+    p {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.Logout_wrapper {
+    color: $wraning-color;
+}

@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test cases for medication Create the snapshots for Medication 1`] = `
+<div>
+  <div
+    class="indication"
+  >
+    <div
+      class="title-input"
+    >
+      <div
+        id="main_textbox"
+      >
+        <span
+          class="ant-typography input-lable"
+        >
+          Surgery criteria
+        </span>
+        <input
+          class="ant-input"
+          data-testid="main_textbox"
+          placeholder=""
+          style="border-radius: 0px;"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <div
+      style="height: 30px;"
+    >
+      <div
+        class="ant-image"
+        style="width: 11px; height: 11px;"
+      >
+        <img
+          alt="surgery-add-icon"
+          class="ant-image-img"
+          height="11"
+          src="AddIcon.svg"
+          style="height: 11px; cursor: pointer;"
+          width="11"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

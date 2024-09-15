@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`create tests for SiteOverview create snapshot for SiteOverview 1`] = `
+<div>
+  <div
+    class="site-overview"
+  >
+    <span
+      class="ant-typography site-overview-title"
+    >
+      Sites overview
+    </span>
+    <div
+      class="site-overview-container"
+    >
+      <div
+        class="site-overview-alignment"
+      >
+        <div
+          class="site-overview-vertical-alignment"
+        >
+          <div
+            class="site-overview-icon"
+          >
+            <svg>
+              Sites.svg
+            </svg>
+          </div>
+          <span
+            class="ant-typography site-overview-value"
+          >
+            3
+          </span>
+        </div>
+        <span
+          class="ant-typography site-overview-text"
+        >
+          Sites
+        </span>
+      </div>
+      <div
+        class="ant-divider ant-divider-vertical site-overview-divider"
+        role="separator"
+      />
+      <div
+        class="site-overview-alignment"
+      >
+        <div
+          class="site-overview-vertical-alignment"
+        >
+          <div
+            class="site-overview-icon"
+          >
+            <svg>
+              Contact.svg
+            </svg>
+          </div>
+          <span
+            class="ant-typography site-overview-value"
+          >
+            0
+          </span>
+        </div>
+        <span
+          class="ant-typography site-overview-text"
+        >
+          Contacted
+        </span>
+      </div>
+      <div
+        class="ant-divider ant-divider-vertical site-overview-divider"
+        role="separator"
+      />
+      <div
+        class="site-overview-alignment"
+      >
+        <div
+          class="site-overview-vertical-alignment"
+        >
+          <div
+            class="site-overview-icon"
+          >
+            <svg>
+              Initiated.svg
+            </svg>
+          </div>
+          <span
+            class="ant-typography site-overview-value"
+          >
+            0
+          </span>
+        </div>
+        <span
+          class="ant-typography site-overview-text"
+        >
+          Initiated
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;

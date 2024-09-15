@@ -1,0 +1,68 @@
+@import '../../../common_styles/common_variable';
+
+.feasibility-study-footer-container {
+    width: 100%;
+    padding: 1rem;
+    color: $primary-color;
+    box-shadow: 5px 8px 50px 18px rgba(57, 45, 46, 0.12);
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    button {
+        margin-right: 2.5rem;
+        border-radius: 1.5rem;
+        font-size: 15px;
+        font-weight: 500;
+        text-transform: capitalize;
+        padding: 0rem 2rem 0rem 2rem;
+
+        &:nth-child(1) {
+            color: $primary-color;
+            border: none;
+            font-weight: 700;
+            font-size: 16;
+        }
+
+        &:nth-child(2) {
+            background: white;
+            color: $primary-color;
+            border-width: 1px;
+            border-color: $primary-color;
+            font-weight: 700;
+            font-size: 16;
+        }
+
+        &:nth-child(3) {
+            background: $primary-color;
+            color: white;
+            border: none;
+            width: 150px;
+            font-weight: 700;
+            font-size: 16;
+        }
+    }
+}
+
+.save-and-close-modal-title{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("../../../assets/BackgroundShape.svg");
+    background-repeat: no-repeat;
+    background-position-y:1rem;
+    background-position-x: center;
+    height: 100%;
+    padding-bottom:3%;
+}
+
+.save-and-close-modal-children{
+    input{
+        margin-bottom: 5%;
+    }
+    .empty-tag{
+        margin-bottom: 5%;
+    }
+}

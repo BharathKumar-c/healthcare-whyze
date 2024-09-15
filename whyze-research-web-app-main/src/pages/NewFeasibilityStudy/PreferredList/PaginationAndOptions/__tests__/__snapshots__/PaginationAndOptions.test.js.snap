@@ -1,0 +1,136 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testcases for PaginationAndOptions create snapshots for PaginationAndOptions 1`] = `
+<div>
+  <div
+    class="preferred-list-pagination-container"
+  >
+    <div
+      class="preferred-list-alignment"
+    >
+      <div
+        class="preferred-list-alignment"
+      >
+        <div
+          class="preferred-list-checkbox"
+        >
+          <label
+            class="ant-checkbox-wrapper"
+          >
+            <span
+              class="ant-checkbox"
+            >
+              <input
+                class="ant-checkbox-input"
+                name="sites"
+                type="checkbox"
+                value=""
+              />
+              <span
+                class="ant-checkbox-inner"
+              />
+            </span>
+          </label>
+          <span
+            class="ant-typography"
+            style="margin-left: 1rem;"
+          >
+            0 Sites
+          </span>
+        </div>
+        <div
+          class="ant-divider ant-divider-vertical preferred-list-divider"
+          role="separator"
+        />
+      </div>
+    </div>
+    <div
+      class="preferred-list-options"
+    >
+      <div
+        class="preferred-list-option-alignment"
+      >
+        <div
+          class="preferred-list-option"
+        >
+          <div
+            class="preferred-list-icon"
+          >
+            <svg>
+              Delete.svg
+            </svg>
+          </div>
+          <span
+            class="ant-typography preferred-list-text"
+          >
+            Delete
+          </span>
+        </div>
+      </div>
+      <div
+        class="preferred-list-option-alignment"
+      >
+        <div
+          class="preferred-list-option"
+        >
+          <div
+            class="preferred-list-icon"
+          >
+            <svg>
+              Contact.svg
+            </svg>
+          </div>
+          <span
+            class="ant-typography preferred-list-text"
+          >
+            Mark contacted
+          </span>
+        </div>
+      </div>
+      <div
+        class="preferred-list-option-alignment"
+      >
+        <div
+          class="preferred-list-option"
+        >
+          <div
+            class="preferred-list-icon"
+          >
+            <svg>
+              Initiated.svg
+            </svg>
+          </div>
+          <span
+            class="ant-typography preferred-list-text"
+          >
+            Mark initiated
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="preferred-list-alignment"
+    >
+      <span
+        class="ant-typography preferred-list-pagination-text"
+      >
+        0-0 of 0
+      </span>
+      <div
+        class="preferred-list-arrow-icon"
+      >
+        <svg
+          class="preferred-list-arrow-left"
+        >
+          LeftArrow.svg
+        </svg>
+        <svg
+          class="preferred-list-arrow-right"
+        >
+          RightArrow.svg
+        </svg>
+      </div>
+    </div>
+  </div>
+</div>
+`;

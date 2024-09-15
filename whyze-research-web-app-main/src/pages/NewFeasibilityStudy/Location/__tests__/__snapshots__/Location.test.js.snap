@@ -1,0 +1,160 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test cases for Location Create the snapshots for Location 1`] = `
+<div>
+  <div
+    class="ant-row"
+  >
+    <div
+      class="ant-col ant-col-21"
+    >
+      <div
+        class="ant-card ant-card-bordered location-Card"
+        id="card_hoc"
+      >
+        <div
+          class="ant-card-head"
+        >
+          <div
+            class="ant-card-head-wrapper"
+          >
+            <div
+              class="ant-card-head-title"
+            >
+              <div
+                class="ant-space ant-space-horizontal ant-space-align-center"
+              >
+                <div
+                  class="ant-space-item"
+                  style="margin-right: 20px;"
+                >
+                  <div
+                    class="ant-space ant-space-horizontal ant-space-align-center"
+                  >
+                    <div
+                      class="ant-space-item"
+                      style="margin-right: 20px;"
+                    >
+                      <div>
+                        <svg>
+                          LocationIcon.svg
+                        </svg>
+                      </div>
+                    </div>
+                    <div
+                      class="ant-space-item"
+                    >
+                      <div
+                        style="font-weight: 700; font-size: 24px;"
+                      >
+                        Location
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="ant-space-item"
+                >
+                  <span
+                    class="ant-tag titlecomponenet-tag"
+                  >
+                    Inclusion
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="ant-card-extra"
+            >
+              <div
+                class="ant-space ant-space-horizontal ant-space-align-end"
+              >
+                <div
+                  class="ant-space-item"
+                  style="margin-right: 20px;"
+                >
+                  <div
+                    class="card-component__Vector-icon"
+                  />
+                </div>
+                <div
+                  class="ant-space-item"
+                >
+                  <svg
+                    class="ant-dropdown-trigger"
+                    style="cursor: pointer;"
+                  >
+                    options.svg
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="ant-card-body"
+        >
+          <div
+            class="location-container"
+          >
+            <div>
+              <h3>
+                Top countries
+              </h3>
+            </div>
+            <div
+              class="location-container-country-tree"
+            >
+              <h3>
+                Countries
+              </h3>
+              <div
+                class="ant-tree"
+                role="tree"
+              >
+                <div>
+                  <input
+                    aria-label="for screen reader"
+                    style="width: 0px; height: 0px; display: flex; overflow: hidden; opacity: 0; border: 0px; padding: 0px; margin: 0px;"
+                    tabindex="0"
+                    value=""
+                  />
+                </div>
+                <div
+                  aria-hidden="true"
+                  class="ant-tree-treenode"
+                  style="position: absolute; pointer-events: none; visibility: hidden; height: 0px; overflow: hidden; border: 0px; padding: 0px;"
+                >
+                  <div
+                    class="ant-tree-indent"
+                  >
+                    <div
+                      class="ant-tree-indent-unit"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="ant-tree-list"
+                  style="position: relative;"
+                >
+                  <div
+                    class="ant-tree-list-holder"
+                  >
+                    <div>
+                      <div
+                        class="ant-tree-list-holder-inner"
+                        style="display: flex; flex-direction: column;"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

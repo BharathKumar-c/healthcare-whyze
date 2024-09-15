@@ -1,0 +1,126 @@
+.sites-title-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    &-title {
+        font-size: 20px;
+        line-height: 26px;
+        font-weight: 700;
+        padding-bottom: 1rem;
+    }
+
+    &-description {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-size: 18px;
+        line-height: 26px;
+        font-weight: 700;
+
+        &-sites {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+            margin-right: 10%;
+        }
+    }
+}
+
+.filter-box {
+    width: 200px;
+
+    &-button {
+        width: 100%;
+    }
+
+    &-text-icon {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &-text {
+        font-size: 16px;
+        font-weight: 400;
+    }
+}
+
+.sites-children {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    &-body {
+        height: 600px;
+        overflow: auto;
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+    }
+
+    &-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &-add-icon {
+            cursor: pointer;
+        }
+    }
+
+    &-wrapper-university {
+        font-size: 18px;
+        font-weight: 400;
+        margin-bottom: 1rem;
+    }
+
+    &-wrapper-linked {
+        cursor: pointer;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding-right: 10%;
+        font-size: 12px;
+
+        &-data {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: row;
+            margin-bottom: 10px;
+
+            &-col {
+                margin-left: 15px;
+                margin-left: 10px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+            }
+        }
+    }
+
+    &-wrapper-usersAndLocation {
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+
+        &-col {
+            display: flex;
+            align-items: center;
+        }
+
+        &-col-icon {
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+    }
+
+    .condition-container {
+        width: 100%;
+        gap: 2px;
+    }
+}

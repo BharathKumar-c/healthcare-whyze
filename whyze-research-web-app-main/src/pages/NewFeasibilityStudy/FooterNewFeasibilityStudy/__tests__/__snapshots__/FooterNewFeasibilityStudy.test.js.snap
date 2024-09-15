@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test cases for new feasibility study footer Create the snapshots for new feasibility study footer 1`] = `
+<div>
+  <div
+    class="feasibility-study-footer-container"
+  >
+    <button
+      class="ant-btn ant-btn-default ant-btn-lg"
+      type="button"
+    >
+      <span>
+        Cancel
+      </span>
+    </button>
+    <button
+      class="ant-btn ant-btn-default ant-btn-lg new-feasibility-footer-btn"
+      data-testid="new-feasibility-footer-btn"
+      type="button"
+    >
+      <span>
+        Save and close
+      </span>
+    </button>
+    <button
+      class="ant-btn ant-btn-default ant-btn-lg"
+      type="button"
+    >
+      <span>
+        Next
+      </span>
+    </button>
+  </div>
+  <div />
+</div>
+`;

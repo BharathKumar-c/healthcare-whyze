@@ -1,0 +1,244 @@
+@import '../../../common_styles/common_variable.scss';
+
+.patient-segment {
+    padding: 25px;
+    background: linear-gradient(180deg, rgba(179, 211, 49, 0.1) 0%, rgba(179, 211, 49, 0.02) 100%);
+    border-radius: 12px;
+    width: 100%;
+    height: 100%;
+
+    &-title {
+        @include font(400, 16px, 140%, $secondary-text-color !important);
+        margin-bottom: 5px;
+
+        &-small {
+            @include font(400, 15px, 16px, $secondary-text-color !important);
+            margin-bottom: 5px;
+        }
+    }
+
+    .site-country-container {
+        margin-bottom: 16px;
+    }
+
+    .pinned-country-container {
+        height: 14%;
+        margin-bottom: 20px;
+    }
+
+    .country-title {
+        margin-top: 3%;
+    }
+
+    .search-field {
+        margin-left: 4%;
+        cursor: pointer;
+    }
+
+    .error-message {
+        width: 88%;
+        text-align: center;
+        background-image: url('../../../assets/EmptyContentBackground.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin-top: 5px;
+        padding: 10px;
+    }
+
+    &-pinned-title {
+        @include font(400, 16px, 140%, $primary-text-color !important);
+    }
+
+    .sub-title {
+        @include font(400, 18px, 140%, $primary-text-color);
+    }
+
+    .site-container {
+        background: $white-color;
+        border-radius: 8px;
+        min-width: 132px;
+        margin-right: 15px;
+        padding: 10px;
+
+        &-icon {
+            width: 40px;
+            height: 40px;
+            background: $tertiary-background-color;
+            border-radius: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            &-grey-bg {
+                width: 40px;
+                height: 40px;
+                border-radius: 24px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: #F6F7F9;
+            }
+        }
+
+    }
+
+    .no-of-patients {
+        @include font(700, 18px, 140%, $primary-text-color);
+    }
+
+    .countries-list {
+        overflow-y: scroll;
+        max-height: 150px;
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+    }
+
+    .country-container {
+        padding: 7px 0;
+        border-bottom: 1px solid rgba(45, 51, 57, 0.08);
+
+        &-column{
+            display: flex;
+            align-items: center;
+        }
+        &-no-of-patients {
+            @include font(700, 18px, 140%, $secondary-text-color);
+        }
+    }
+
+    .not-connected-patients-container {
+        background: $white-color;
+        border-radius: 8px;
+
+        .alignment {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            flex-direction: row;
+        }
+
+        .no-of-patients-text {
+            @include font(700, 18px, 140%, $secondary-text-color);
+            margin-left: 10px;
+        }
+
+        .sites-text {
+            @include font(400, 12px, 16px, $secondary-text-color);
+            flex-grow: 1;
+        }
+
+    }
+
+    .selected-countries {
+
+        &-title {
+            @include font(400, 18px, 140%, $primary-text-color !important);
+        }
+
+        &-component {
+            align-items: center;
+            padding: 6px 12px 3px;
+            background: #F6F7F9;
+            border-radius: 16px;
+            margin-top: 10px;
+
+            &-border {
+                align-items: center;
+                padding: 6px 12px 3px;
+                margin-top: 10px;
+                border-bottom: 1px solid rgba(45, 51, 57, 0.08);
+            }
+        }
+
+        &-location-icon {
+            path {
+                fill: rgba(45, 51, 57, 0.8);
+            }
+        }
+
+        &-text {
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            @include font(400, 16px, 140%, $secondary-text-color);
+        }
+
+        &-no-of-patients {
+            display: flex !important;
+            justify-content: center;
+            @include font(700, 16px, 140%, $primary-text-color)
+        }
+    }
+
+    .site-overview {
+        margin-bottom: 15px;
+
+        &-title {
+            @include font(400, 16px, 140%, $secondary-text-color);
+        }
+
+        &-container {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            padding: 8px;
+            background: $white-color;
+            border-radius: 8px;
+            margin-top: 10px;
+        }
+
+        &-alignment {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        &-vertical-alignment {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        &-icon {
+            margin-right: 10px;
+
+            path {
+                fill: #2D3339;
+            }
+        }
+
+        &-value {
+            @include font(400, 18px, 140%, $tertiary-text-color);
+        }
+
+        &-text {
+            @include font(400, 12px, 16px, $secondary-text-color);
+        }
+
+        &-divider {
+            border-left: 1px solid rgba(45, 51, 57, 0.08);
+            margin-left: 5px;
+        }
+    }
+}
+
+#not-connected-patients,
+.ant-popover-inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 4px 8px;
+    width: 220px;
+    background: #138686;
+    border-radius: 4px;
+
+    .content {
+        @include font(400, 12px, 16px, $white-color);
+    }
+
+}

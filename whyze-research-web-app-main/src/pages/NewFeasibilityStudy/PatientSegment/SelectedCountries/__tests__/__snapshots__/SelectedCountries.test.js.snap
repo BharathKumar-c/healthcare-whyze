@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`create tests for SelectedCountry create snapshots 1`] = `
+<div>
+  <div
+    class="selected-countries-container"
+  >
+    <span
+      class="ant-typography selected-countries-title"
+    >
+      Selected countries
+    </span>
+  </div>
+</div>
+`;

@@ -1,0 +1,57 @@
+.Location-card {
+    border-left: #E5718C;
+
+
+
+}
+
+.location-container {
+
+    h3 {
+        font-weight: 700;
+    }
+
+    .checkedtree {
+
+        .ant-tree-node-content-wrapper {
+            background-color: #D9F042 !important;
+        }
+    }
+
+    &-country-tree {
+        margin: 15px 0 0;
+        width: 50%;
+    }
+
+    .ant-tree-treenode-switcher-open,
+    .ant-tree-treenode-switcher-close {
+        margin: 5px 0 0;
+    }
+
+    .ant-tree-treenode-checkbox-checked {
+        width: 100%;
+        background: #D9F042;
+        margin: 5px 0 0;
+    }
+
+    .ant-tree-node-content-wrapper {
+        margin: 5px 0 0;
+        background-color: unset !important;
+        border-radius: 2px;
+    }
+
+}
+
+.ant-tree-checkbox-checked .ant-tree-checkbox-inner {
+    background-color: #2D3339 !important;
+    color: #D9F042 !important;
+    border: none !important;
+}
+
+.ant-tree-checkbox-indeterminate .ant-tree-checkbox-inner:after {
+    background-color: #2D3339 !important;
+    color: #D9F042 !important;
+    border: none !important;
+    width: 14px !important;
+    height: 14px !important;
+}
